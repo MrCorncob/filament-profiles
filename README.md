@@ -58,28 +58,28 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -88,26 +88,26 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -116,26 +116,26 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -144,31 +144,31 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -177,29 +177,29 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
-| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte， | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
+| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte， | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -208,28 +208,28 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -238,32 +238,32 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -272,30 +272,30 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PP-CF ` | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PP-CF ` | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -304,28 +304,28 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY ASA basic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
-| TINMORRY PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
-| TINMORRY PAHT-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PLA matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY ASA basic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
+| TINMORRY PAHT-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -336,43 +336,43 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -381,43 +381,43 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -426,43 +426,43 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -471,57 +471,57 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PC HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20HT.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PC HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20HT.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -530,57 +530,57 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -589,57 +589,57 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PC HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20HT.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PC HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20HT.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -648,52 +648,52 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HT.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS HT | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HT.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -702,57 +702,57 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -761,56 +761,56 @@ Some TINMORRY filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a si
 
 | Filament | Source | Download |
 |---|---|---|
-| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 

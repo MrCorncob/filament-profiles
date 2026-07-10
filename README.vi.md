@@ -58,28 +58,28 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -88,26 +88,26 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -116,26 +116,26 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -144,31 +144,31 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -177,29 +177,29 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
-| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte， | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
+| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte， | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -208,28 +208,28 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -238,32 +238,32 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -272,30 +272,30 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PP-CF ` | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PP-CF ` | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -304,28 +304,28 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY ASA basic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
-| TINMORRY PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
-| TINMORRY PAHT-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PLA matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY ASA basic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
+| TINMORRY PAHT-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -336,43 +336,43 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -381,43 +381,43 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -426,43 +426,43 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A2L/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -471,57 +471,57 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PC HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20HT.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PC HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PC%20HT.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2C/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -530,57 +530,57 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2D/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -589,57 +589,57 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PC HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20HT.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PC HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PC%20HT.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/H2S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -648,52 +648,52 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HT.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS HT | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ABS%20HT.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P1S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -702,57 +702,57 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA.bbsflmt) |
-| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA.bbsflmt) |
+| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/P2S/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 
@@ -761,56 +761,56 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS.bbsflmt) |
-| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20ESD.bbsflmt) |
-| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20FR.bbsflmt) |
-| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20HS.bbsflmt) |
-| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-CF.bbsflmt) |
-| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-GF.bbsflmt) |
-| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA.bbsflmt) |
-| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA%20LW.bbsflmt) |
-| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA-CF.bbsflmt) |
-| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA12-CF.bbsflmt) |
-| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA6-CF.bbsflmt) |
-| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC.bbsflmt) |
-| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC%20ESD.bbsflmt) |
-| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%20LW.bbsflmt) |
+| eSUN ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS.bbsflmt) |
+| eSUN ABS ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20ESD.bbsflmt) |
+| eSUN ABS FR | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20FR.bbsflmt) |
+| eSUN ABS HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS%20HS.bbsflmt) |
+| eSUN ABS-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-CF.bbsflmt) |
+| eSUN ABS-GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ABS-GF.bbsflmt) |
+| eSUN ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA.bbsflmt) |
+| eSUN ASA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20ASA%20LW.bbsflmt) |
+| eSUN PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA-CF.bbsflmt) |
+| eSUN PA12-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA12-CF.bbsflmt) |
+| eSUN PA6-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PA6-CF.bbsflmt) |
+| eSUN PC | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC.bbsflmt) |
+| eSUN PC ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PC%20ESD.bbsflmt) |
+| eSUN PEBA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA.bbsflmt) |
+| eSUN PEBA 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2085A.bbsflmt) |
+| eSUN PEBA 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%2090A.bbsflmt) |
+| eSUN PEBA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PEBA%20LW.bbsflmt) |
+| eSUN PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PET%20CF.bbsflmt) |
+| eSUN PETG | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG.bbsflmt) |
+| eSUN PETG Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Basic.bbsflmt) |
+| eSUN PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20CF.bbsflmt) |
+| eSUN PETG ESD | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20ESD.bbsflmt) |
+| eSUN PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20HS.bbsflmt) |
+| eSUN PETG Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Luminous.bbsflmt) |
+| eSUN PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PETG%20Matte.bbsflmt) |
+| eSUN PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA.bbsflmt) |
+| eSUN PLA Basic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Basic.bbsflmt) |
+| eSUN PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20CF.bbsflmt) |
+| eSUN PLA Clear | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Clear.bbsflmt) |
+| eSUN PLA HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20HS.bbsflmt) |
+| eSUN PLA LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20LW.bbsflmt) |
+| eSUN PLA Lite | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Lite.bbsflmt) |
+| eSUN PLA Luminous | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Luminous.bbsflmt) |
+| eSUN PLA Magic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Magic.bbsflmt) |
+| eSUN PLA Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Marble.bbsflmt) |
+| eSUN PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Matte.bbsflmt) |
+| eSUN PLA Metal | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Metal.bbsflmt) |
+| eSUN PLA Rock UV | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Rock%20UV.bbsflmt) |
+| eSUN PLA ST | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20ST.bbsflmt) |
+| eSUN PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Silk.bbsflmt) |
+| eSUN PLA Twinkle | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Twinkle.bbsflmt) |
+| eSUN PLA Wood | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20PLA%20Wood.bbsflmt) |
+| eSUN TPE 83A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPE%2083A.bbsflmt) |
+| eSUN TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU.bbsflmt) |
+| eSUN TPU 64D | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2064D.bbsflmt) |
+| eSUN TPU 80A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2080A.bbsflmt) |
+| eSUN TPU 85A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2085A.bbsflmt) |
+| eSUN TPU 90A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2090A.bbsflmt) |
+| eSUN TPU 95A | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%2095A.bbsflmt) |
+| eSUN TPU LW | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/X2D/0.4mm/eSUN%20TPU%20LW.bbsflmt) |
 
 </details>
 

@@ -28,7 +28,7 @@ from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, SLICERS, VENDORS, invent
 
 GITHUB_OWNER = "MrCorncob"
 GITHUB_REPO = "filament-profiles"
-GITHUB_BRANCH = "all-printers"
+GITHUB_BRANCH = "main"
 
 BEGIN = "<!-- BEGIN GENERATED PROFILE TABLES -->"
 END = "<!-- END GENERATED PROFILE TABLES -->"
