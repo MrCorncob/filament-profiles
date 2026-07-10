@@ -98,14 +98,16 @@ PRINTERS = {
 }
 
 
-def target_printer_dir(printer_name: str) -> str:
-    """VENDOR-qualified bundle directory for a printer, e.g. 'TINMORRY/X2D/0.4mm'.
+def target_printer_dir(printer_name: str, vendor: str = VENDOR) -> str:
+    """Vendor-qualified bundle directory for a printer, e.g. 'TINMORRY/X2D/0.4mm'.
 
     This is what the generation pipeline (find_gaps, convert_old_repo_to_printer.py)
     reads/writes -- PRINTERS[...]["dir"] itself stays a bare printer-only fragment
     since it's also used as the hardware registry key for other vendors' bundles.
+    Defaults to VENDOR (TINMORRY) for the original pipeline's call sites; pass
+    vendor="eSUN" to target the eSUN pipeline instead.
     """
-    return f"{VENDOR}/{PRINTERS[printer_name]['dir']}"
+    return f"{vendor}/{PRINTERS[printer_name]['dir']}"
 
 
 def strip_vendor(printer_dir: str) -> str:
@@ -121,19 +123,25 @@ def printer_code_of(printer_dir: str) -> str:
 # Materials that print fine on any Bambu machine regardless of enclosure --
 # includes fiber-reinforced PETG/PLA/PET variants, which Bambu Studio itself
 # ships "Generic ...-CF" system profiles for on open-frame printers (A1).
-TIER_BASE = {"PLA", "PETG", "TPU", "PLA-CF", "PETG-CF", "PET-CF"}
+# PEBA and TPE are flexible elastomers like TPU (no fume/warping concerns of
+# their own -- eSUN's own HS-Parameters deltas inherit them from Bambu's own
+# TPU 95A system profile, see esun_entries()), added for eSUN's data.
+TIER_BASE = {"PLA", "PETG", "TPU", "PLA-CF", "PETG-CF", "PET-CF", "PEBA", "TPE"}
 
 # Warp-prone / fume-relevant materials that Bambu recommends an enclosure
 # for. Only generated for a printer if (a) the old repo has a machine-coded
 # ("@BBL <code>") delta for THAT printer, or (b) the printer already ships
 # an engineering-tier bundle in this repo, proving real hardware capability.
-TIER_ENGINEERING_MED = {"ABS", "ASA", "ASA-CF", "PC"}
+# ABS-CF/ABS-GF (fiber-reinforced ABS, from eSUN's data) are gated the same
+# as plain ABS.
+TIER_ENGINEERING_MED = {"ABS", "ASA", "ASA-CF", "PC", "ABS-CF", "ABS-GF"}
 
 # High-temperature engineering materials (nylon-based) that need a hardened,
 # high-limit hotend and usually a heated chamber. Only generated for a
 # printer with DIRECT machine-coded old-repo evidence -- tier-proof via
-# other engineering materials is not considered sufficient.
-TIER_ENGINEERING_HIGH = {"PA", "PA-CF", "PAHT-CF"}
+# other engineering materials is not considered sufficient. PA6-CF/PA12-CF
+# (from eSUN's data) are other nylon-CF grades, gated the same as PA-CF.
+TIER_ENGINEERING_HIGH = {"PA", "PA-CF", "PAHT-CF", "PA6-CF", "PA12-CF"}
 
 
 def tier_of(filament_type: str) -> str:
@@ -155,7 +163,9 @@ POLYMER_FAMILY = {
     "PETG": "PETG", "PETG-CF": "PETG", "PET-CF": "PETG",
     "TPU": "TPU",
     "ABS": "ABS-ASA-PC", "ASA": "ABS-ASA-PC", "ASA-CF": "ABS-ASA-PC", "PC": "ABS-ASA-PC",
-    "PA": "PA", "PA-CF": "PA", "PAHT-CF": "PA",
+    "ABS-CF": "ABS-ASA-PC", "ABS-GF": "ABS-ASA-PC",
+    "PA": "PA", "PA-CF": "PA", "PAHT-CF": "PA", "PA6-CF": "PA", "PA12-CF": "PA",
+    "PEBA": "PEBA", "TPE": "TPE",
 }
 
 
@@ -167,7 +177,7 @@ PRINTER_TOKENS = {
     "a1", "a1m", "a1mini", "a2l", "p1p", "p1s", "p2s", "x1", "x1c", "x1e",
     "h2c", "h2d", "h2s", "x2d", "bbl", "bambu", "tinmorry", "nozzle", "0.4",
 }
-NOISE_WORDS = {"generic", "bambu"}
+NOISE_WORDS = {"generic", "bambu", "esun"}
 
 
 # A handful of old-repo/BambuPrinters filenames glue the material and grade
@@ -215,6 +225,129 @@ INHERITS_BASE_MATERIAL = [
 FILE_BASE_MATERIAL_OVERRIDE = {
     "PET-CF (X1 X1C P1S P1P).json": "PET-CF",
 }
+
+
+# ---------------------------------------------------------------------------
+# eSUN delta source (reference-esun/) -- see REFERENCES.md External
+# references for where to download eSUN's own "HS Parameters for Bambu Lab"
+# export. Same overall shape as old_repo_entries() (small deltas, "@BBL
+# <code>"-tagged inherits) but read from a per-printer folder structure
+# instead of a flat directory, and skips "*Process.json" (print/process
+# settings, out of scope -- same convention as bambuprinters_entries()).
+# ---------------------------------------------------------------------------
+
+ESUN_DIR = REPO_ROOT / "reference-esun"
+
+# eSUN's own export folder names -> this repo's PRINTERS keys. P1P, X1, and
+# X1C have no folder in this repo (see PRINTERS' docstring), so their eSUN
+# data is simply never read -- not registered here.
+ESUN_PRINTER_FOLDERS = {
+    "A1": "A1", "A1 Mini": "A1mini", "H2C": "H2C", "H2D": "H2D",
+    "H2S": "H2S", "P1S": "P1S", "P2S": "P2S", "X2D": "X2D",
+}
+
+# eSUN's own filenames misspell "Twinkle" two different ways across
+# printers ("PLA-Twinking", "PLA-Twinkling") -- normalize both to the
+# spelling used by the majority of files, or normalize()'s token-set dedup
+# would treat all three as distinct products.
+ESUN_TOKEN_FIXES = {"twinking": "twinkle", "twinkling": "twinkle"}
+
+
+def esun_base_material(tokens: set):
+    """Classify an eSUN filename's token set into a canonical filament_type.
+
+    Unlike old_repo_entries()/bambuprinters_entries(), this reads the
+    FILENAME rather than "inherits" -- eSUN's deltas often inherit from a
+    Bambu baseline profile (e.g. "Bambu PETG Basic") even for reinforced or
+    specialty variants like PETG-CF, so trusting inherits the way
+    old_repo_entries() does would misclassify them as their un-reinforced
+    base type. Reinforcement tokens (cf/gf) mint a distinct filament_type
+    (matching this repo's existing PLA-CF/PETG-CF/PA-CF convention);
+    everything else (Basic, Matte, HS, ESD, Luminous, ...) stays a display
+    descriptor on the base type, not a separate filament_type.
+    """
+    def has(*want):
+        return all(t in tokens for t in want)
+
+    if has("pa6", "cf"):
+        return "PA6-CF"
+    if has("pa12", "cf"):
+        return "PA12-CF"
+    if has("pa", "cf"):
+        return "PA-CF"
+    if "pa" in tokens:
+        return "PA"
+    if has("abs", "cf"):
+        return "ABS-CF"
+    if has("abs", "gf"):
+        return "ABS-GF"
+    if "abs" in tokens:
+        return "ABS"
+    if has("asa", "cf"):
+        return "ASA-CF"
+    if "asa" in tokens:
+        return "ASA"
+    if "pc" in tokens:
+        return "PC"
+    if has("pet", "cf"):
+        return "PET-CF"
+    if has("petg", "cf"):
+        return "PETG-CF"
+    if "petg" in tokens:
+        return "PETG"
+    if has("pla", "cf"):
+        return "PLA-CF"
+    if "pla" in tokens:
+        return "PLA"
+    if "tpu" in tokens:
+        return "TPU"
+    if "peba" in tokens:
+        return "PEBA"
+    if "tpe" in tokens:
+        return "TPE"
+    return None
+
+
+def esun_entries():
+    """Yield dicts describing every reference-esun/<Printer>/*Filament.json
+    export, normalized to the same shape as old_repo_entries()/
+    bambuprinters_entries() so find_gaps() can draw on it too.
+    """
+    if not ESUN_DIR.exists():
+        return
+    for printer_folder in sorted(ESUN_DIR.iterdir()):
+        if not printer_folder.is_dir():
+            continue
+        printer_code = ESUN_PRINTER_FOLDERS.get(printer_folder.name)
+        if printer_code is None:
+            continue
+        for path in sorted(printer_folder.glob("*Filament.json")):
+            data = json.loads(path.read_text())
+            inherits = data.get("inherits", "") or ""
+            m = re.search(r"@BBL\s+([A-Za-z0-9]+)", inherits)
+            bbl_code = m.group(1).lower() if m else None
+
+            material_part = re.sub(r"(?i)^.*esun", "", path.stem)
+            material_part = re.sub(r"(?i)filament\s*$", "", material_part).strip()
+            text = material_part.lower()
+            for glued, fixed in ESUN_TOKEN_FIXES.items():
+                text = text.replace(glued, fixed)
+            tokens = {t for t in re.findall(r"[a-z0-9]+", text) if t not in NOISE_WORDS}
+
+            base_material = esun_base_material(tokens)
+            if base_material is None:
+                continue
+            descriptor = tokens - normalize(base_material)
+
+            yield {
+                "path": path,
+                "file": f"{printer_folder.name}/{path.name}",
+                "source_dir": "reference-esun",
+                "inherits": inherits,
+                "bbl_code": bbl_code,
+                "base_material": base_material,
+                "descriptor": descriptor,
+            }
 
 
 def old_repo_entries():
@@ -306,11 +439,17 @@ def bambuprinters_entries():
         }
 
 
-def delta_entries():
-    """Yield entries from every registered delta source (reference-old-repo/
-    plus reference-bambuprinters/), in the common shape find_gaps() expects."""
-    yield from old_repo_entries()
-    yield from bambuprinters_entries()
+def delta_entries(vendor: str = VENDOR):
+    """Yield entries from every registered delta source for a vendor, in the
+    common shape find_gaps() expects. TINMORRY draws on two sources
+    (reference-old-repo/, reference-bambuprinters/); eSUN draws on one
+    (reference-esun/). A vendor with no registered source yields nothing.
+    """
+    if vendor == "TINMORRY":
+        yield from old_repo_entries()
+        yield from bambuprinters_entries()
+    elif vendor == "eSUN":
+        yield from esun_entries()
 
 
 def bundle_labels(printer_dir: str):
@@ -377,16 +516,16 @@ def classify_gap(base_material: str, bbl_code: str, printer_codes: set, engineer
     return "SKIP (unknown material)"
 
 
-def find_gaps(printer_name: str):
+def find_gaps(printer_name: str, vendor: str = VENDOR):
     """Yield one dict per delta-source filament family missing from a printer.
 
     Each dict has: base_material, descriptor (token set), label, verdict
     (see classify_gap), and source (the chosen delta entry dict -- from
-    reference-old-repo/ or reference-bambuprinters/, see delta_entries() --
+    this vendor's registered delta source(s), see delta_entries() --
     biased towards a machine-coded delta for this printer when one exists).
     """
     info = PRINTERS[printer_name]
-    printer_dir = target_printer_dir(printer_name)
+    printer_dir = target_printer_dir(printer_name, vendor)
     existing_tokens = [tokens for _, _, tokens in bundle_labels(printer_dir)]
     # Tier-proof (an unrelated engineering material already present) is
     # only trustworthy on a printer that's physically enclosed -- see the
@@ -394,7 +533,7 @@ def find_gaps(printer_name: str):
     engineering_capable = is_engineering_capable(printer_dir) and info["enclosed"]
 
     groups = {}
-    for entry in delta_entries():
+    for entry in delta_entries(vendor):
         if entry["base_material"] is None:
             continue
         key = (entry["base_material"], frozenset(entry["descriptor"]))
@@ -422,7 +561,7 @@ def find_gaps(printer_name: str):
 
 # Materials whose hyphen is part of the actual product name, not a
 # base-polymer + reinforcement suffix -- keep the hyphen in display names.
-HYPHENATED_MATERIALS = {"PA-CF", "PAHT-CF", "PP-CF"}
+HYPHENATED_MATERIALS = {"PA-CF", "PAHT-CF", "PP-CF", "PA6-CF", "PA12-CF", "ABS-CF", "ABS-GF"}
 
 
 def display_material(base_material: str) -> str:
@@ -433,11 +572,22 @@ def display_material(base_material: str) -> str:
 
 DESCRIPTOR_CASE_OVERRIDES = {
     "cf": "CF", "gf": "GF", "hs": "HS", "eco": "ECO", "pp": "PP", "pc": "PC",
+    "esd": "ESD", "fr": "FR", "ht": "HT", "lw": "LW", "st": "ST", "uv": "UV",
 }
 
 
 def display_descriptor(descriptor: set) -> str:
-    words = [DESCRIPTOR_CASE_OVERRIDES.get(w, w.capitalize()) for w in sorted(descriptor)]
+    words = []
+    for w in sorted(descriptor):
+        if w in DESCRIPTOR_CASE_OVERRIDES:
+            words.append(DESCRIPTOR_CASE_OVERRIDES[w])
+        elif re.fullmatch(r"\d+[ad]", w):
+            # Shore hardness grades (95a, 64d, ...) -- str.capitalize() only
+            # uppercases the first character, which is a digit here and a
+            # no-op, leaving the trailing hardness letter lowercase.
+            words.append(w[:-1] + w[-1].upper())
+        else:
+            words.append(w.capitalize())
     return " ".join(words)
 
 
@@ -467,6 +617,19 @@ FALLBACK_TEMPLATE = {
     "PLA": ("TINMORRY/X2D/0.4mm", "TINMORRY PLA matte"),
     "PETG": ("TINMORRY/X2D/0.4mm", "TINMORRY PETG ECO"),
     "TPU": ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
+    # No TINMORRY bundle exists for these -- point at the closest analog in
+    # the same POLYMER_FAMILY (see esun_base_material()'s docstring for why
+    # these types exist at all).
+    "PA": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
+    "PA6-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
+    "PA12-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
+    "ABS-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY ABS Pro"),
+    "ABS-GF": ("TINMORRY/X2D/0.4mm", "TINMORRY ABS Pro"),
+    # eSUN's own PEBA/TPE deltas inherit from Bambu's TPU 95A system profile
+    # (see esun_entries()), so borrowing TINMORRY's TPU 95A bundle as the
+    # machine-parameter template matches eSUN's own choice.
+    "PEBA": ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
+    "TPE": ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
 }
 
 

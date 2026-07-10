@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 """
-For every printer folder in this repo, compare filament types present in
-reference-old-repo/ against what's already bundled, and classify each gap
-by whether we have enough machine-compatibility evidence to safely
-generate it. See src/_filament_lib.py's module docstring and
+For every printer folder in this repo, compare filament types present in a
+vendor's registered delta source(s) against what's already bundled, and
+classify each gap by whether we have enough machine-compatibility evidence
+to safely generate it. See src/_filament_lib.py's module docstring and
 CLAUDE.md's "Machine compatibility gating" section for the policy.
 
 Usage:
-    python3 src/find_missing_filaments.py               # all printers
-    python3 src/find_missing_filaments.py --printer H2D # one printer
+    python3 src/find_missing_filaments.py                    # all printers, TINMORRY
+    python3 src/find_missing_filaments.py --printer H2D       # one printer
+    python3 src/find_missing_filaments.py --vendor eSUN       # all printers, eSUN
 
 Each gap is labeled ALLOW (direct/family/tier-proof evidence) or SKIP
 (needs manual review) -- see _filament_lib.classify_gap for exactly what
@@ -20,12 +21,14 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _filament_lib import PRINTERS, bundle_labels, find_gaps, is_engineering_capable, target_printer_dir  # noqa: E402
+from _filament_lib import (  # noqa: E402
+    PRINTERS, VENDOR, bundle_labels, find_gaps, is_engineering_capable, target_printer_dir,
+)
 
 
-def report_printer(printer_name: str):
+def report_printer(printer_name: str, vendor: str):
     info = PRINTERS[printer_name]
-    printer_dir = target_printer_dir(printer_name)
+    printer_dir = target_printer_dir(printer_name, vendor)
     existing = bundle_labels(printer_dir)
 
     print(f"\n=== {printer_name} ({info['compatible']}) ===")
@@ -33,17 +36,18 @@ def report_printer(printer_name: str):
     print(f"  enclosed: {info['enclosed']}  |  has an engineering-tier bundle already: {is_engineering_capable(printer_dir)}"
           f"  |  tier-proof active: {is_engineering_capable(printer_dir) and info['enclosed']}")
 
-    for gap in find_gaps(printer_name):
+    for gap in find_gaps(printer_name, vendor):
         print(f"  [{gap['verdict']:45s}] {gap['label']:24s} <- {gap['source']['source_dir']}/{gap['source']['file']}")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--printer", choices=sorted(PRINTERS), help="limit to one printer")
+    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN"], help="delta source to report gaps for")
     args = parser.parse_args()
 
     for name in ([args.printer] if args.printer else sorted(PRINTERS)):
-        report_printer(name)
+        report_printer(name, args.vendor)
 
 
 if __name__ == "__main__":

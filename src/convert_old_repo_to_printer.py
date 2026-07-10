@@ -1,36 +1,37 @@
 #!/usr/bin/env python3
 """
-Generate new *.bbsflmt bundles for filament types that TINMORRY's old
-per-printer profile repo (reference-old-repo/) has but a given printer
-folder in this repo doesn't yet -- without touching any existing .bbsflmt
-file, and without ever inventing a filament/printer pairing we have no
-compatibility evidence for.
+Generate new *.bbsflmt bundles for filament types that a vendor's
+registered delta source(s) have but a given printer folder in this repo
+doesn't yet -- without touching any existing .bbsflmt file, and without
+ever inventing a filament/printer pairing we have no compatibility
+evidence for.
 
 Compatibility gating (see src/_filament_lib.py and CLAUDE.md):
   - Base materials (PLA, PETG, TPU, and CF-reinforced PLA/PETG/PET) are
     generated freely -- they print fine on any Bambu machine.
   - "Engineering" materials (ABS, ASA, ASA-CF, PC) are only generated for a
-    printer if the old repo has a machine-specific delta for that exact
-    printer, or the printer already ships another engineering-tier bundle
-    in this repo (proving it has an enclosure/hardware for it).
+    printer if the delta source has a machine-specific delta for that
+    exact printer, or the printer already ships another engineering-tier
+    bundle in this repo (proving it has an enclosure/hardware for it).
   - High-temperature nylon materials (PA, PA-CF, PAHT-CF) are only
-    generated with a machine-specific old-repo delta for that exact
-    printer -- never inferred from another material's tier-proof.
+    generated with a machine-specific delta for that exact printer --
+    never inferred from another material's tier-proof.
   - Anything that doesn't clear its bar is skipped and left for manual
     review; run find_missing_filaments.py to see the full gap list
     including skips and why.
 
 Each generated bundle takes its machine parameters (temps, per-extruder-
-variant behavior) from the closest existing bundle for that SAME printer,
-falling back to a same-tier bundle on that printer, then to a repo-wide
-canonical template (see _filament_lib.FALLBACK_TEMPLATE) -- and layers the
-old-repo delta's own material tuning (flow ratio, fan speed, plate temp,
-max volumetric speed) on top.
+variant behavior) from the closest existing bundle for that SAME printer
+AND vendor, falling back to a same-tier bundle on that printer, then to a
+repo-wide canonical template (see _filament_lib.FALLBACK_TEMPLATE) -- and
+layers the delta's own material tuning (flow ratio, fan speed, plate
+temp, max volumetric speed) on top.
 
 Usage:
-    python3 src/convert_old_repo_to_printer.py                   # all printers
+    python3 src/convert_old_repo_to_printer.py                   # all printers, TINMORRY
     python3 src/convert_old_repo_to_printer.py --printer H2D     # one printer
     python3 src/convert_old_repo_to_printer.py --dry-run         # preview only
+    python3 src/convert_old_repo_to_printer.py --vendor eSUN     # all printers, eSUN
 """
 import argparse
 import json
@@ -45,8 +46,8 @@ from _filament_lib import (  # noqa: E402
 )
 
 
-def convert_printer(printer_name: str, dry_run: bool):
-    printer_dir = target_printer_dir(printer_name)
+def convert_printer(printer_name: str, dry_run: bool, vendor: str):
+    printer_dir = target_printer_dir(printer_name, vendor)
     out_dir = PROFILES_DIR / printer_dir
     skipped = []
 
@@ -56,7 +57,7 @@ def convert_printer(printer_name: str, dry_run: bool):
     # choose_template's docstring).
     existing_labels = bundle_labels(printer_dir)
 
-    for gap in find_gaps(printer_name):
+    for gap in find_gaps(printer_name, vendor):
         if not gap["verdict"].startswith("ALLOW"):
             skipped.append(gap)
             continue
@@ -67,7 +68,7 @@ def convert_printer(printer_name: str, dry_run: bool):
             continue
         template_printer_dir, template_bundle = template
 
-        output_name = output_bundle_name(VENDOR, gap["base_material"], gap["descriptor"])
+        output_name = output_bundle_name(vendor, gap["base_material"], gap["descriptor"])
         out_path = out_dir / f"{output_name}.bbsflmt"
 
         override_note = ""
@@ -82,8 +83,9 @@ def convert_printer(printer_name: str, dry_run: bool):
 
         bundle_structure, profile_path, profile, _override_path = build_bundle(
             printer_dir, output_name, gap["base_material"],
-            template_printer_dir, template_bundle, gap["source"]["path"], VENDOR,
+            template_printer_dir, template_bundle, gap["source"]["path"], vendor,
         )
+        out_dir.mkdir(parents=True, exist_ok=True)
         with zipfile.ZipFile(out_path, "w", zipfile.ZIP_DEFLATED) as z:
             z.writestr("bundle_structure.json", json.dumps(bundle_structure, indent=4))
             z.writestr(profile_path, json.dumps(profile, indent=4))
@@ -98,11 +100,12 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--printer", choices=sorted(PRINTERS), help="limit to one printer")
     parser.add_argument("--dry-run", action="store_true", help="preview without writing files")
+    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN"], help="delta source to generate bundles from")
     args = parser.parse_args()
 
     for name in ([args.printer] if args.printer else sorted(PRINTERS)):
         print(f"\n=== {name} ===")
-        convert_printer(name, args.dry_run)
+        convert_printer(name, args.dry_run, args.vendor)
 
 
 if __name__ == "__main__":
