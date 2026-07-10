@@ -1,0 +1,25 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PA6-CF @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PA6-CF Filament",
+    "nozzle_temperature": [
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil"
+    ],
+    "version": "2.5.0.14"
+}

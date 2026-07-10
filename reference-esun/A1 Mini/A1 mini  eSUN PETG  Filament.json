@@ -1,0 +1,27 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "A1 mini  eSUN PETG  Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG Basic @BBL A1M 0.4 nozzle",
+    "name": "A1 mini  eSUN PETG  Filament",
+    "nozzle_temperature": [
+        "255"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "version": "1.8.0.13"
+}

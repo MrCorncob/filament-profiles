@@ -1,0 +1,33 @@
+{
+    "fan_max_speed": [
+        "70"
+    ],
+    "fan_min_speed": [
+        "40"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PETG-Basic Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG Basic @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PETG-Basic Filament",
+    "nozzle_temperature": [
+        "255",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "version": "2.4.0.10"
+}

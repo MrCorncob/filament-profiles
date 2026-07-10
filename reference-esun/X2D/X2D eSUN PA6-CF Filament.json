@@ -1,0 +1,33 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "X2D eSUN PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PA6-CF @BBL X2D 0.4 nozzle",
+    "name": "X2D eSUN PA6-CF Filament",
+    "nozzle_temperature": [
+        "290",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "version": "2.6.0.2"
+}

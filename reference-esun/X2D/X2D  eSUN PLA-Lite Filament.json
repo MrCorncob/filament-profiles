@@ -1,0 +1,39 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "16",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "X2D  eSUN PLA-Lite Filament"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "from": "User",
+    "inherits": "Bambu PLA Basic @BBL X2D 0.4 nozzle",
+    "name": "X2D  eSUN PLA-Lite Filament",
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.5.0.18"
+}

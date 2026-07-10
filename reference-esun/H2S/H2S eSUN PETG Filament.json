@@ -1,0 +1,21 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2S eSUN PETG Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG Basic @BBL H2S",
+    "name": "H2S eSUN PETG Filament",
+    "nozzle_temperature": [
+        "255",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "nil"
+    ],
+    "version": "2.3.0.3"
+}

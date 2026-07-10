@@ -1,0 +1,38 @@
+{
+    "fan_max_speed": [
+        "60"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "1",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "22",
+        "nil"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN ABS+HS Filament"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "nil"
+    ],
+    "from": "User",
+    "inherits": "Generic ABS @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN ABS+HS Filament",
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "version": "2.5.0.14"
+}

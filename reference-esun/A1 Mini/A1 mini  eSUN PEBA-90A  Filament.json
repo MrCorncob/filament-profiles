@@ -1,0 +1,27 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_max_volumetric_speed": [
+        "5"
+    ],
+    "filament_settings_id": [
+        "A1 mini  eSUN PEBA-90A  Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A @BBL A1M",
+    "name": "A1 mini  eSUN PEBA-90A  Filament",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "textured_plate_temp": [
+        "70"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "70"
+    ],
+    "version": "1.8.0.13"
+}

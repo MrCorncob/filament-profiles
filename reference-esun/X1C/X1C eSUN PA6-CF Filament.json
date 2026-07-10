@@ -1,0 +1,21 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "X1C eSUN PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PA6-CF @BBL X1C",
+    "name": "X1C eSUN PA6-CF Filament",
+    "nozzle_temperature": [
+        "280",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280",
+        "nil"
+    ],
+    "version": "2.6.0.3"
+}

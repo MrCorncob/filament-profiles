@@ -1,0 +1,24 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "A1 eSUN TPE-83A  Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A @BBL A1",
+    "name": "A1 eSUN TPE-83A  Filament",
+    "nozzle_temperature": [
+        "240"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "240"
+    ],
+    "textured_plate_temp": [
+        "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "1.8.0.13"
+}

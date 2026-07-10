@@ -1,0 +1,32 @@
+{
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "16",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2S eSUN PC-HT Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PC @BBL H2S",
+    "name": "H2S eSUN PC-HT Filament",
+    "nozzle_temperature": [
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil"
+    ],
+    "version": "2.3.0.3"
+}

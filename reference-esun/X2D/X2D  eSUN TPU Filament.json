@@ -1,0 +1,39 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "X2D  eSUN TPU Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A @BBL X2D 0.4 nozzle",
+    "name": "X2D  eSUN TPU Filament",
+    "nozzle_temperature": [
+        "225",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "45"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "45"
+    ],
+    "version": "2.5.0.18"
+}

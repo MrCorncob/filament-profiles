@@ -1,0 +1,21 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PC-HT Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PC @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PC-HT Filament",
+    "nozzle_temperature": [
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil"
+    ],
+    "version": "2.5.0.14"
+}

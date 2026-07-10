@@ -1,0 +1,29 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.95",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "12",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PA-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PA-CF @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PA-CF Filament",
+    "nozzle_temperature": [
+        "280",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "280",
+        "nil"
+    ],
+    "version": "2.5.0.14"
+}

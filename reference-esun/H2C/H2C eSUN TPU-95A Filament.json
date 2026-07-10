@@ -1,0 +1,31 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "1.02",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN TPU-95A Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN TPU-95A Filament",
+    "nozzle_temperature": [
+        "225",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "45"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "45"
+    ],
+    "version": "2.5.0.14"
+}

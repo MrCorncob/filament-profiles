@@ -1,0 +1,25 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "9",
+        "15"
+    ],
+    "filament_settings_id": [
+        "P1P eSUN  PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PA-CF @BBL P1P",
+    "name": "P1P eSUN  PA6-CF Filament",
+    "nozzle_temperature": [
+        "nil",
+        "270"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "nil",
+        "270"
+    ],
+    "version": "1.9.0.21"
+}

@@ -1,0 +1,30 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "P1S eSUN  PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Fiberon PA6-CF @BBL X1C",
+    "name": "P1S eSUN  PA6-CF Filament",
+    "nozzle_temperature": [
+        "290",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "290",
+        "nil"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.5.0.18"
+}

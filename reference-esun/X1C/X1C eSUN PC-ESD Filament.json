@@ -1,0 +1,24 @@
+{
+    "fan_max_speed": [
+        "20"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "X1C eSUN PC-ESD Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PC",
+    "name": "X1C eSUN PC-ESD Filament",
+    "nozzle_temperature_initial_layer": [
+        "280"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.0.0.76"
+}

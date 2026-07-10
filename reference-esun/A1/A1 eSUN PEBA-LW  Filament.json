@@ -1,0 +1,30 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.6"
+    ],
+    "filament_max_volumetric_speed": [
+        "2.8"
+    ],
+    "filament_settings_id": [
+        "A1 eSUN PEBA-LW  Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu TPU 95A @BBL A1",
+    "name": "A1 eSUN PEBA-LW  Filament",
+    "nozzle_temperature": [
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.8.0.13"
+}

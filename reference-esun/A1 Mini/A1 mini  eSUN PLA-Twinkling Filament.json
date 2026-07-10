@@ -1,0 +1,18 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_settings_id": [
+        "A1 mini  eSUN PLA-Twinkling Filament"
+    ],
+    "from": "User",
+    "inherits": "eSUN PLA+ @BBL A1M",
+    "name": "A1 mini  eSUN PLA-Twinkling Filament",
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.7.0.29"
+}

@@ -1,0 +1,13 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2S eSUN PA6-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PA-CF @BBL H2S",
+    "name": "H2S eSUN PA6-CF Filament",
+    "version": "2.6.0.2"
+}

@@ -1,0 +1,27 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.96",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "P2S eSUN PC-ESD Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PC @BBL P2S 0.4 nozzle",
+    "name": "P2S eSUN PC-ESD Filament",
+    "nozzle_temperature_initial_layer": [
+        "280",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.6.0.1"
+}

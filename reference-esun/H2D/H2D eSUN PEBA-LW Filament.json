@@ -1,0 +1,40 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive TPU High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.6",
+        "nil",
+        "nil"
+    ],
+    "filament_max_volumetric_speed": [
+        "3.8",
+        "nil",
+        "5"
+    ],
+    "filament_settings_id": [
+        "H2D eSUN PEBA-LW Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU @BBL H2D",
+    "name": "H2D eSUN PEBA-LW Filament",
+    "nozzle_temperature": [
+        "260",
+        "nil",
+        "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260",
+        "nil",
+        "220"
+    ],
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "2.0.0.87"
+}

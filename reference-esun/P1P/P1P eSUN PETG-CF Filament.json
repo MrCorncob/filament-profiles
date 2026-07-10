@@ -1,0 +1,29 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.9",
+        "0.9"
+    ],
+    "filament_max_volumetric_speed": [
+        "15",
+        "15"
+    ],
+    "filament_settings_id": [
+        "P1P eSUN PETG-CF Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PETG @BBL P1P",
+    "name": "P1P eSUN PETG-CF Filament",
+    "nozzle_temperature": [
+        "260",
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260",
+        "260"
+    ],
+    "version": "1.9.0.12"
+}

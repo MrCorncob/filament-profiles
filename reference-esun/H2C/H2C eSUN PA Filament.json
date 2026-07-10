@@ -1,0 +1,19 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PA Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PA @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PA Filament",
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.5.0.14"
+}

@@ -1,0 +1,35 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive TPU High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "3.8",
+        "nil",
+        "5"
+    ],
+    "filament_settings_id": [
+        "H2D eSUN PEBA-85A Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU @BBL H2D",
+    "name": "H2D eSUN PEBA-85A Filament",
+    "nozzle_temperature": [
+        "nil",
+        "nil",
+        "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "nil",
+        "nil",
+        "220"
+    ],
+    "textured_plate_temp": [
+        "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "2.0.0.87"
+}

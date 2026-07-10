@@ -1,0 +1,30 @@
+{
+    "fan_max_speed": [
+        "50"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_flow_ratio": [
+        "1",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "P1S eSUN ABS-HT Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu ABS @BBL P1S 0.4 nozzle",
+    "name": "P1S eSUN ABS-HT Filament",
+    "nozzle_temperature": [
+        "260",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "100"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "100"
+    ],
+    "version": "2.4.0.1"
+}

@@ -1,0 +1,19 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "H2C eSUN PLA-marble Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @BBL H2C 0.4 nozzle",
+    "name": "H2C eSUN PLA-marble Filament",
+    "textured_plate_temp": [
+        "65"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "65"
+    ],
+    "version": "2.5.0.7"
+}

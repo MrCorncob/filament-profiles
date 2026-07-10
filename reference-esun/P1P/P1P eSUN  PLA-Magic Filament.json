@@ -1,0 +1,23 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "16",
+        "16"
+    ],
+    "filament_settings_id": [
+        "P1P eSUN  PLA-Magic Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic PLA @BBL P1P",
+    "name": "P1P eSUN  PLA-Magic Filament",
+    "textured_plate_temp": [
+        "60"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "60"
+    ],
+    "version": "1.9.0.21"
+}

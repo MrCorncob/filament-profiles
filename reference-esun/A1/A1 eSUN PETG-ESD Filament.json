@@ -1,0 +1,24 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "filament_flow_ratio": [
+        "0.92"
+    ],
+    "filament_settings_id": [
+        "A1 eSUN PETG-ESD Filament"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG Basic @BBL A1",
+    "name": "A1 eSUN PETG-ESD Filament",
+    "nozzle_temperature": [
+        "260"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "260"
+    ],
+    "slow_down_for_layer_cooling": [
+        "0"
+    ],
+    "version": "1.8.0.13"
+}

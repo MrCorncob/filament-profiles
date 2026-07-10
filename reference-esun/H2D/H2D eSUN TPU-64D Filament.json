@@ -1,0 +1,35 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Direct Drive TPU High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "5",
+        "nil",
+        "5"
+    ],
+    "filament_settings_id": [
+        "H2D eSUN TPU-64D Filament"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU @BBL H2D",
+    "name": "H2D eSUN TPU-64D Filament",
+    "nozzle_temperature": [
+        "225",
+        "nil",
+        "220"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "225",
+        "nil",
+        "220"
+    ],
+    "textured_plate_temp": [
+        "45"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "45"
+    ],
+    "version": "2.0.0.87"
+}

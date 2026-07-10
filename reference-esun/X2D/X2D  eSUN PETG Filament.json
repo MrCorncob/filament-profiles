@@ -1,0 +1,51 @@
+{
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "X2D  eSUN PETG Filament"
+    ],
+    "filament_wipe": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_wipe_distance": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "from": "User",
+    "inherits": "Bambu PETG Basic @BBL X2D 0.4 nozzle",
+    "name": "X2D  eSUN PETG Filament",
+    "nozzle_temperature": [
+        "255",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "version": "2.5.0.18"
+}

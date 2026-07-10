@@ -19,7 +19,7 @@ BAMBUPRINTERS_DIR = REPO_ROOT / "reference-bambuprinters"
 CUSTOM_OVERRIDE_DIR = REPO_ROOT / "src" / "custom_overrides"
 
 # Root of all profile data: profiles/<Slicer>/<Vendor>/<Printer>/*, separate
-# from this toolchain (src/) and from the gitignored delta-source clones
+# from this toolchain (src/) and from the tracked delta-source snapshots
 # above. Slicer is the outermost layer because it determines the file
 # FORMAT itself (.bbsflmt is Bambu Studio's own bundle format; a future
 # OrcaSlicer export would need an entirely different file structure, not
@@ -762,8 +762,8 @@ def load_custom_override(printer_dir: str, output_name: str):
     """Load a hand-maintained override for one generated bundle, if present.
 
     src/custom_overrides/<printer_dir>/<output_name>.json (committed,
-    NOT gitignored -- unlike reference-old-repo/ and
-    reference-bambuprinters/, which are reclone-able source dumps) lets a
+    same as reference-old-repo/ and reference-bambuprinters/ -- but unlike
+    those, hand-maintained rather than an external source snapshot) lets a
     maintainer force specific fields on a generated bundle -- e.g. a real
     spec-sheet nozzle/bed temperature for X2D's PA-CF/PAHT-CF bundles,
     which inherited PETG-CF's temperatures for lack of a better source (see

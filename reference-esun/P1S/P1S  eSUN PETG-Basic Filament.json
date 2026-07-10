@@ -1,0 +1,30 @@
+{
+    "fan_min_speed": [
+        "20"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_settings_id": [
+        "P1S  eSUN PETG-Basic Filament"
+    ],
+    "from": "User",
+    "inherits": "Fiberon PET-CF @BBL X1C",
+    "name": "P1S  eSUN PETG-Basic Filament",
+    "nozzle_temperature": [
+        "255",
+        "nil"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "255",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "80"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "80"
+    ],
+    "version": "2.5.0.18"
+}

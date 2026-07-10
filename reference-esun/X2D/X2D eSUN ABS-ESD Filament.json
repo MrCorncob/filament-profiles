@@ -1,0 +1,54 @@
+{
+    "fan_max_speed": [
+        "50"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_flow_ratio": [
+        "0.98",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_retraction_length": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "X2D eSUN ABS-ESD Filament"
+    ],
+    "filament_wipe": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_wipe_distance": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "filament_z_hop_types": [
+        "nil",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "from": "User",
+    "inherits": "Bambu ABS @BBL X2D 0.4 nozzle",
+    "name": "X2D eSUN ABS-ESD Filament",
+    "nozzle_temperature": [
+        "260",
+        "nil",
+        "nil",
+        "nil"
+    ],
+    "version": "2.6.0.2"
+}

@@ -1,0 +1,39 @@
+{
+    "eng_plate_temp": [
+        "90"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "90"
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow"
+    ],
+    "filament_max_volumetric_speed": [
+        "16",
+        "nil"
+    ],
+    "filament_settings_id": [
+        "H2D eSUN PC-ESD Filament"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "90"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "90"
+    ],
+    "inherits": "Bambu PC @BBL H2D 0.4 nozzle",
+    "name": "H2D eSUN PC-ESD Filament",
+    "nozzle_temperature_initial_layer": [
+        "280",
+        "nil"
+    ],
+    "textured_plate_temp": [
+        "90"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "90"
+    ],
+    "version": "2.6.0.1"
+}
