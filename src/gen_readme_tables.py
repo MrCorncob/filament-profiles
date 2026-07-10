@@ -6,9 +6,9 @@ Original/Derived tag for every .bbsflmt bundle, aimed at non-technical
 users who just want to click a link rather than clone the repo.
 
 Usage:
-    python3 scripts/gen_readme_tables.py               # print all language blocks
-    python3 scripts/gen_readme_tables.py --write        # splice into every README
-    python3 scripts/gen_readme_tables.py --check         # exit 1 if any is stale
+    python3 src/gen_readme_tables.py               # print all language blocks
+    python3 src/gen_readme_tables.py --write        # splice into every README
+    python3 src/gen_readme_tables.py --check         # exit 1 if any is stale
 
 Splicing looks for the markers below (already present in every README) and
 replaces everything between them -- keep the markers intact when hand-editing
@@ -67,7 +67,7 @@ PRINTER_LABELS = {
 
 
 def raw_url(vendor: str, folder: str, filename: str) -> str:
-    path = f"{vendor}/{folder}/{filename}"
+    path = f"profiles/{vendor}/{folder}/{filename}"
     encoded = urllib.parse.quote(path)
     return f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{urllib.parse.quote(GITHUB_BRANCH, safe='')}/{encoded}"
 

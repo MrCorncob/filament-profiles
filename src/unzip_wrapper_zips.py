@@ -6,9 +6,9 @@ bundle themselves -- see README.md "Known quirks") and extract the inner
 the wrapper's own subfolder.
 
 Usage:
-    python3 scripts/unzip_wrapper_zips.py             # extract, keep the .zip
-    python3 scripts/unzip_wrapper_zips.py --delete-zip # extract, then remove the .zip
-    python3 scripts/unzip_wrapper_zips.py --dry-run    # preview only
+    python3 src/unzip_wrapper_zips.py             # extract, keep the .zip
+    python3 src/unzip_wrapper_zips.py --delete-zip # extract, then remove the .zip
+    python3 src/unzip_wrapper_zips.py --dry-run    # preview only
 """
 import argparse
 import sys
@@ -16,13 +16,13 @@ import zipfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, VENDORS  # noqa: E402
+from _filament_lib import INVENTORY_FOLDERS, PROFILES_DIR, REPO_ROOT, VENDORS  # noqa: E402
 
 
 def find_wrapper_zips():
     for vendor in VENDORS:
         for printer_folder in INVENTORY_FOLDERS:
-            d = REPO_ROOT / vendor / printer_folder
+            d = PROFILES_DIR / vendor / printer_folder
             if not d.exists():
                 continue
             for path in sorted(d.rglob("*.zip")):

@@ -6,7 +6,7 @@ folder in this repo doesn't yet -- without touching any existing .bbsflmt
 file, and without ever inventing a filament/printer pairing we have no
 compatibility evidence for.
 
-Compatibility gating (see scripts/_filament_lib.py and CLAUDE.md):
+Compatibility gating (see src/_filament_lib.py and CLAUDE.md):
   - Base materials (PLA, PETG, TPU, and CF-reinforced PLA/PETG/PET) are
     generated freely -- they print fine on any Bambu machine.
   - "Engineering" materials (ABS, ASA, ASA-CF, PC) are only generated for a
@@ -28,9 +28,9 @@ old-repo delta's own material tuning (flow ratio, fan speed, plate temp,
 max volumetric speed) on top.
 
 Usage:
-    python3 scripts/convert_old_repo_to_printer.py                   # all printers
-    python3 scripts/convert_old_repo_to_printer.py --printer H2D     # one printer
-    python3 scripts/convert_old_repo_to_printer.py --dry-run         # preview only
+    python3 src/convert_old_repo_to_printer.py                   # all printers
+    python3 src/convert_old_repo_to_printer.py --printer H2D     # one printer
+    python3 src/convert_old_repo_to_printer.py --dry-run         # preview only
 """
 import argparse
 import json
@@ -40,14 +40,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _filament_lib import (  # noqa: E402
-    PRINTERS, REPO_ROOT, VENDOR, bundle_labels, build_bundle, choose_template, custom_override_path,
-    find_gaps, output_bundle_name, target_printer_dir,
+    PRINTERS, PROFILES_DIR, REPO_ROOT, VENDOR, bundle_labels, build_bundle, choose_template,
+    custom_override_path, find_gaps, output_bundle_name, target_printer_dir,
 )
 
 
 def convert_printer(printer_name: str, dry_run: bool):
     printer_dir = target_printer_dir(printer_name)
-    out_dir = REPO_ROOT / printer_dir
+    out_dir = PROFILES_DIR / printer_dir
     skipped = []
 
     # Snapshot the ORIGINAL bundles before writing anything, so every gap
@@ -72,7 +72,7 @@ def convert_printer(printer_name: str, dry_run: bool):
 
         override_note = ""
         if custom_override_path(printer_dir, output_name).exists():
-            override_note = ", override=scripts/custom_overrides/" \
+            override_note = ", override=src/custom_overrides/" \
                 f"{printer_dir}/{output_name}.json"
         print(f"{'[dry-run] ' if dry_run else ''}{out_path.relative_to(REPO_ROOT)}"
               f"  (verdict={gap['verdict']}, template={template_printer_dir}/{template_bundle!r},"

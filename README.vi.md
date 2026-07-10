@@ -17,19 +17,21 @@ Bộ cấu hình sợi in (filament) tùy chỉnh cho Bambu Studio, đóng gói 
 
 ## Cấu trúc thư mục
 
-Mỗi thư mục cấp cao nhất là một hãng sợi in; bên trong đó là các thư mục con tương ứng với từng dòng máy in (theo đúng giá trị trong trường `compatible_printers` của từng cấu hình). Riêng `X2D` có thêm thư mục con `0.4mm` cho đầu phun 0.4mm. Hiện chỉ có `TINMORRY/` là có cấu hình — các thư mục hãng khác (eSUN, ELEGOO) sẽ xuất hiện theo cùng cách khi có dữ liệu.
+Dữ liệu cấu hình sợi in nằm trong `profiles/`, còn bộ công cụ tạo ra chúng nằm trong `src/`. Bên trong `profiles/`, mỗi thư mục cấp cao nhất là một hãng sợi in; bên trong đó là các thư mục con tương ứng với từng dòng máy in (theo đúng giá trị trong trường `compatible_printers` của từng cấu hình). Riêng `X2D` có thêm thư mục con `0.4mm` cho đầu phun 0.4mm. Hiện chỉ có `TINMORRY/` là có cấu hình — các thư mục hãng khác (eSUN, ELEGOO) sẽ xuất hiện theo cùng cách khi có dữ liệu.
 
 ```
-TINMORRY/
-  A1/       Bambu Lab A1, đầu phun 0.4mm
-  A1mini/   Bambu Lab A1 mini, đầu phun 0.4mm
-  A2L/      Bambu Lab A2L, đầu phun 0.4mm
-  H2C/      Bambu Lab H2C, đầu phun 0.4mm
-  H2D/      Bambu Lab H2D, đầu phun 0.4mm
-  H2S/      Bambu Lab H2S, đầu phun 0.4mm
-  P1S/      Bambu Lab P1S, đầu phun 0.4mm
-  P2S/      Bambu Lab P2S, đầu phun 0.4mm
-  X2D/0.4mm/  Bambu Lab X2D, đầu phun 0.4mm
+profiles/
+  TINMORRY/
+    A1/       Bambu Lab A1, đầu phun 0.4mm
+    A1mini/   Bambu Lab A1 mini, đầu phun 0.4mm
+    A2L/      Bambu Lab A2L, đầu phun 0.4mm
+    H2C/      Bambu Lab H2C, đầu phun 0.4mm
+    H2D/      Bambu Lab H2D, đầu phun 0.4mm
+    H2S/      Bambu Lab H2S, đầu phun 0.4mm
+    P1S/      Bambu Lab P1S, đầu phun 0.4mm
+    P2S/      Bambu Lab P2S, đầu phun 0.4mm
+    X2D/0.4mm/  Bambu Lab X2D, đầu phun 0.4mm
+src/       Bộ công cụ Python tạo ra các bundle mới (xem CLAUDE.md)
 ```
 
 ## Danh sách cấu hình hiện có
@@ -39,7 +41,7 @@ Bấm vào tên máy in bên dưới để xem danh sách sợi in tương ứng
 - **Nguyên bản** = file xuất thật từ TINMORRY.
 - **Được tạo** = không phải từ TINMORRY trực tiếp; được tạo ra từ dữ liệu cũ của TINMORRY bằng các script trong repo này (xem `CLAUDE.md`). Hãy đọc mục **⚠️ Lưu ý** ở trên trước khi dùng cấu hình loại "Được tạo", đặc biệt là PA-CF/PAHT-CF trên X2D.
 
-Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chung một bundle duy nhất trong `TINMORRY/X2D/0.4mm/`, chứa cấu hình cho cả máy P2S lẫn X2D.
+Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chung một bundle duy nhất trong `profiles/TINMORRY/X2D/0.4mm/`, chứa cấu hình cho cả máy P2S lẫn X2D.
 
 <!-- BEGIN GENERATED PROFILE TABLES -->
 
@@ -50,28 +52,28 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -80,26 +82,26 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -108,26 +110,26 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -136,31 +138,31 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -169,29 +171,29 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
-| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte， | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
+| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte， | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -200,28 +202,28 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -230,32 +232,32 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -264,30 +266,30 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PP-CF ` | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG ECO | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PP-CF ` | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -296,28 +298,28 @@ Một số loại sợi (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chu
 
 | Sợi in | Nguồn gốc | Tải xuống |
 |---|---|---|
-| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY ASA basic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
-| TINMORRY PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
-| TINMORRY PAHT-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
-| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PLA matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
-| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY ASA basic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PA-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
+| TINMORRY PAHT-CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
+| TINMORRY PC GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PETG CF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
+| TINMORRY TPU 95A | Nguyên bản | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -342,4 +344,4 @@ Xem [REFERENCES.md](REFERENCES.md) để biết danh sách đầy đủ các bun
 
 ## Một số điểm cần lưu ý
 
-- Một vài tên file có ký tự lạ còn sót lại từ lần xuất gốc (ví dụ dấu phẩy toàn chiều rộng trong `TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt`, hoặc dấu backtick trong `` TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt ``). Đây chỉ là vấn đề thẩm mỹ, không ảnh hưởng đến việc import.
+- Một vài tên file có ký tự lạ còn sót lại từ lần xuất gốc (ví dụ dấu phẩy toàn chiều rộng trong `profiles/TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt`, hoặc dấu backtick trong `` profiles/TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt ``). Đây chỉ là vấn đề thẩm mỹ, không ảnh hưởng đến việc import.

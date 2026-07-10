@@ -1,6 +1,6 @@
 """
-Shared helpers for scripts/find_missing_filaments.py and
-scripts/convert_old_repo_to_printer.py.
+Shared helpers for src/find_missing_filaments.py and
+src/convert_old_repo_to_printer.py.
 
 Central piece: a machine-compatibility tier system so the converter never
 fabricates a filament/printer pairing it has no evidence for. See
@@ -16,11 +16,16 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 OLD_REPO_DIR = REPO_ROOT / "reference-old-repo"
 BAMBUPRINTERS_DIR = REPO_ROOT / "reference-bambuprinters"
-CUSTOM_OVERRIDE_DIR = REPO_ROOT / "scripts" / "custom_overrides"
+CUSTOM_OVERRIDE_DIR = REPO_ROOT / "src" / "custom_overrides"
+
+# Vendor bundle data (<Vendor>/<Printer>/*.bbsflmt) lives under profiles/,
+# separate from this toolchain (src/) and from the gitignored delta-source
+# clones above.
+PROFILES_DIR = REPO_ROOT / "profiles"
 
 # Every vendor this repo knows about, in display order. Bundles live under
-# <Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the printer half).
-# eSUN and ELEGOO are registered here as scaffolding only -- no delta
+# profiles/<Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the printer
+# half). eSUN and ELEGOO are registered here as scaffolding only -- no delta
 # source data exists for them yet, so no bundles are generated and their
 # folders won't exist on disk until real source data does.
 VENDORS = ["TINMORRY", "eSUN", "ELEGOO"]
@@ -289,7 +294,7 @@ def delta_entries():
 
 def bundle_labels(printer_dir: str):
     """List (path, filament_name, token set) for a printer's existing bundles."""
-    d = REPO_ROOT / printer_dir
+    d = PROFILES_DIR / printer_dir
     labels = []
     if not d.exists():
         return labels
@@ -311,7 +316,7 @@ def printer_filament_types(printer_dir: str) -> set:
     entry name, so looking them up by the declared path raises KeyError.
     """
     printer_code = printer_code_of(printer_dir)  # e.g. "H2D", "X2D"
-    d = REPO_ROOT / printer_dir
+    d = PROFILES_DIR / printer_dir
     types = set()
     if not d.exists():
         return types
@@ -509,7 +514,7 @@ def load_bundle_profile(printer_dir: str, bundle_name: str):
     non-ASCII filenames that don't byte-match their cp437-stored zip entry.
     """
     printer_code = printer_code_of(printer_dir)
-    path = REPO_ROOT / printer_dir / f"{bundle_name}.bbsflmt"
+    path = PROFILES_DIR / printer_dir / f"{bundle_name}.bbsflmt"
     with zipfile.ZipFile(path) as z:
         bundle_structure = json.loads(z.read("bundle_structure.json"))
         name = next(n for n in z.namelist() if n.endswith(".json") and n != "bundle_structure.json" and printer_code in n)
@@ -572,7 +577,7 @@ def custom_override_path(printer_dir: str, output_name: str) -> Path:
 def load_custom_override(printer_dir: str, output_name: str):
     """Load a hand-maintained override for one generated bundle, if present.
 
-    scripts/custom_overrides/<printer_dir>/<output_name>.json (committed,
+    src/custom_overrides/<printer_dir>/<output_name>.json (committed,
     NOT gitignored -- unlike reference-old-repo/ and
     reference-bambuprinters/, which are reclone-able source dumps) lets a
     maintainer force specific fields on a generated bundle -- e.g. a real
@@ -679,7 +684,7 @@ def inventory_rows():
     for vendor in VENDORS:
         for printer_folder in INVENTORY_FOLDERS:
             folder = f"{vendor}/{printer_folder}"
-            d = REPO_ROOT / folder
+            d = PROFILES_DIR / folder
             for path in sorted(d.glob("*.bbsflmt")):
                 with zipfile.ZipFile(path) as z:
                     bs = json.loads(z.read("bundle_structure.json"))

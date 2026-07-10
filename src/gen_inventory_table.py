@@ -5,8 +5,8 @@ from the actual .bbsflmt bundles on disk. Run this after adding/removing
 any bundle so the table doesn't drift from reality.
 
 Usage:
-    python3 scripts/gen_inventory_table.py            # print the table
-    python3 scripts/gen_inventory_table.py --check    # exit 1 if REFERENCES.md is stale
+    python3 src/gen_inventory_table.py            # print the table
+    python3 src/gen_inventory_table.py --check    # exit 1 if REFERENCES.md is stale
 """
 import argparse
 import re
@@ -27,7 +27,7 @@ def build_table():
     for r in rows:
         mark = "" if r["original"] else "*"
         bundle_id = r["bundle_id"] if r["original"] else re.sub(r"_\d+$", "_&lt;generated&gt;", r["bundle_id"])
-        lines.append(f"| {r['folder']} | {r['filename']}{mark} | {r['filament_name']} | {r['type']} | "
+        lines.append(f"| profiles/{r['folder']} | {r['filename']}{mark} | {r['filament_name']} | {r['type']} | "
                       f"{' + '.join(r['printers'])} | {r['version']} | {bundle_id} |")
     return "\n".join(lines)
 

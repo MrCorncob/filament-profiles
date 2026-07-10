@@ -17,19 +17,21 @@ Fork 自 [TINMORRY/Tinmorry-Bambu_BambuStudio](https://github.com/TINMORRY/Tinmo
 
 ## 目录结构
 
-每个顶层文件夹对应一个耗材品牌；其下的子文件夹再对应各个打印机型号（与每个配置文件中 `compatible_printers` 字段的值一致）。`X2D` 额外嵌套了一个 `0.4mm` 喷嘴子文件夹。目前只有 `TINMORRY/` 下有配置文件——其他品牌文件夹（eSUN、ELEGOO）会在有数据后以同样方式出现。
+配置文件数据存放在 `profiles/` 下，生成它们的工具链存放在 `src/` 下。在 `profiles/` 内，每个顶层文件夹对应一个耗材品牌；其下的子文件夹再对应各个打印机型号（与每个配置文件中 `compatible_printers` 字段的值一致）。`X2D` 额外嵌套了一个 `0.4mm` 喷嘴子文件夹。目前只有 `TINMORRY/` 下有配置文件——其他品牌文件夹（eSUN、ELEGOO）会在有数据后以同样方式出现。
 
 ```
-TINMORRY/
-  A1/       Bambu Lab A1，0.4mm 喷嘴
-  A1mini/   Bambu Lab A1 mini，0.4mm 喷嘴
-  A2L/      Bambu Lab A2L，0.4mm 喷嘴
-  H2C/      Bambu Lab H2C，0.4mm 喷嘴
-  H2D/      Bambu Lab H2D，0.4mm 喷嘴
-  H2S/      Bambu Lab H2S，0.4mm 喷嘴
-  P1S/      Bambu Lab P1S，0.4mm 喷嘴
-  P2S/      Bambu Lab P2S，0.4mm 喷嘴
-  X2D/0.4mm/  Bambu Lab X2D，0.4mm 喷嘴
+profiles/
+  TINMORRY/
+    A1/       Bambu Lab A1，0.4mm 喷嘴
+    A1mini/   Bambu Lab A1 mini，0.4mm 喷嘴
+    A2L/      Bambu Lab A2L，0.4mm 喷嘴
+    H2C/      Bambu Lab H2C，0.4mm 喷嘴
+    H2D/      Bambu Lab H2D，0.4mm 喷嘴
+    H2S/      Bambu Lab H2S，0.4mm 喷嘴
+    P1S/      Bambu Lab P1S，0.4mm 喷嘴
+    P2S/      Bambu Lab P2S，0.4mm 喷嘴
+    X2D/0.4mm/  Bambu Lab X2D，0.4mm 喷嘴
+src/       生成新 bundle 的 Python 工具链（详见 CLAUDE.md）
 ```
 
 ## 可用配置文件
@@ -39,7 +41,7 @@ TINMORRY/
 - **原版** = TINMORRY 官方导出的真实文件。
 - **衍生** = 并非直接来自 TINMORRY；由本仓库的脚本根据 TINMORRY 较旧的数据生成（详见 `CLAUDE.md`）。使用"衍生"配置前请阅读上方的 **⚠️ 注意事项**，尤其是 X2D 上的 PA-CF/PAHT-CF。
 
-部分耗材（PETG GF、PETG Marble、PETG Metallic、TPU 95A）在 `TINMORRY/X2D/0.4mm/` 下共用同一个文件包，同时覆盖 P2S 打印机。
+部分耗材（PETG GF、PETG Marble、PETG Metallic、TPU 95A）在 `profiles/TINMORRY/X2D/0.4mm/` 下共用同一个文件包，同时覆盖 P2S 打印机。
 
 <!-- BEGIN GENERATED PROFILE TABLES -->
 
@@ -50,28 +52,28 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -80,26 +82,26 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -108,26 +110,26 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -136,31 +138,31 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -169,29 +171,29 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
-| TINMORRY ASA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte， | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
+| TINMORRY ASA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte， | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -200,28 +202,28 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -230,32 +232,32 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -264,30 +266,30 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS Pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PP-CF ` | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PP-CF ` | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -296,28 +298,28 @@ TINMORRY/
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY ABS Pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY ASA basic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
-| TINMORRY PA-CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
-| TINMORRY PAHT-CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PETG CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PLA matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY ASA basic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PA-CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
+| TINMORRY PAHT-CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PETG CF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -342,4 +344,4 @@ TINMORRY/
 
 ## 已知问题
 
-- 少数文件名中包含从原始导出继承下来的特殊字符（例如 `TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt` 中的全角逗号，以及 `` TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt `` 中的反引号）。这些只是外观问题，不影响导入。
+- 少数文件名中包含从原始导出继承下来的特殊字符（例如 `profiles/TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt` 中的全角逗号，以及 `` profiles/TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt `` 中的反引号）。这些只是外观问题，不影响导入。

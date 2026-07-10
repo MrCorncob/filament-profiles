@@ -17,19 +17,21 @@ Custom Bambu Studio filament presets, packaged as `.bbsflmt` bundles and organiz
 
 ## Repository layout
 
-Each top-level folder is a filament vendor; each folder under that corresponds to a printer model (as reported in each profile's `compatible_printers` field). `X2D` additionally nests profiles under a `0.4mm` nozzle folder. Only `TINMORRY/` has profiles today — further vendor folders (eSUN, ELEGOO) will appear the same way once sourced.
+Filament profile data lives under `profiles/`, the toolchain that generates it under `src/`. Inside `profiles/`, each top-level folder is a filament vendor; each folder under that corresponds to a printer model (as reported in each profile's `compatible_printers` field). `X2D` additionally nests profiles under a `0.4mm` nozzle folder. Only `TINMORRY/` has profiles today — further vendor folders (eSUN, ELEGOO) will appear the same way once sourced.
 
 ```
-TINMORRY/
-  A1/       Bambu Lab A1, 0.4mm nozzle
-  A1mini/   Bambu Lab A1 mini, 0.4mm nozzle
-  A2L/      Bambu Lab A2L, 0.4mm nozzle
-  H2C/      Bambu Lab H2C, 0.4mm nozzle
-  H2D/      Bambu Lab H2D, 0.4mm nozzle
-  H2S/      Bambu Lab H2S, 0.4mm nozzle
-  P1S/      Bambu Lab P1S, 0.4mm nozzle
-  P2S/      Bambu Lab P2S, 0.4mm nozzle
-  X2D/0.4mm/  Bambu Lab X2D, 0.4mm nozzle
+profiles/
+  TINMORRY/
+    A1/       Bambu Lab A1, 0.4mm nozzle
+    A1mini/   Bambu Lab A1 mini, 0.4mm nozzle
+    A2L/      Bambu Lab A2L, 0.4mm nozzle
+    H2C/      Bambu Lab H2C, 0.4mm nozzle
+    H2D/      Bambu Lab H2D, 0.4mm nozzle
+    H2S/      Bambu Lab H2S, 0.4mm nozzle
+    P1S/      Bambu Lab P1S, 0.4mm nozzle
+    P2S/      Bambu Lab P2S, 0.4mm nozzle
+    X2D/0.4mm/  Bambu Lab X2D, 0.4mm nozzle
+src/       Python toolchain that derives new bundles (see CLAUDE.md)
 ```
 
 ## Available profiles
@@ -39,7 +41,7 @@ Click a printer below to see its filaments. Each row's **Download** link goes st
 - **Original** = a real TINMORRY export.
 - **Derived** = not from TINMORRY directly; generated from TINMORRY's older per-printer data by the scripts in this repo (see `CLAUDE.md`). Read the **⚠️ Caution** section above before using a Derived profile, especially PA-CF/PAHT-CF on X2D.
 
-Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bundle under `TINMORRY/X2D/0.4mm/` that also covers the P2S printer.
+Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bundle under `profiles/TINMORRY/X2D/0.4mm/` that also covers the P2S printer.
 
 <!-- BEGIN GENERATED PROFILE TABLES -->
 
@@ -50,28 +52,28 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -80,26 +82,26 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -108,26 +110,26 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/A2L/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -136,31 +138,31 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2C/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -169,29 +171,29 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
-| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte， | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ABS%20pro.bbsflmt) |
+| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte， | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Matte%EF%BC%8C.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2D/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -200,28 +202,28 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Rapid | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Rapid.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/H2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -230,32 +232,32 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
-| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS.bbsflmt) |
+| TINMORRY ABS Pro | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P1S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -264,30 +266,30 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PP-CF ` | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG ECO | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PP-CF ` | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20PP-CF%20%60.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/P2S/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -296,28 +298,28 @@ Some filaments (PETG GF, PETG Marble, PETG Metallic, TPU 95A) ship a single bund
 
 | Filament | Source | Download |
 |---|---|---|
-| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
-| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
-| TINMORRY ASA basic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
-| TINMORRY PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
-| TINMORRY PAHT-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
-| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY PLA matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
-| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY ABS Pro | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20CF.bbsflmt) |
+| TINMORRY ASA basic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PA-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PA-CF.bbsflmt) |
+| TINMORRY PAHT-CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PAHT-CF.bbsflmt) |
+| TINMORRY PC GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PETG CF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG ECO | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA CF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20PLA%20matte.bbsflmt) |
+| TINMORRY TPU 95A | Original | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | Derived | [download](https://raw.githubusercontent.com/MrCorncob/filament-profiles/all-printers/profiles/TINMORRY/X2D/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
 
 </details>
 
@@ -342,4 +344,4 @@ See [REFERENCES.md](REFERENCES.md) for a full inventory of bundles and their met
 
 ## Known quirks
 
-- A few filenames contain unusual characters carried over from the original export (e.g. a full-width comma in `TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt`, a backtick in `` TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt ``). These are cosmetic and don't affect import.
+- A few filenames contain unusual characters carried over from the original export (e.g. a full-width comma in `profiles/TINMORRY/H2D/TINMORRY PLA Matte，.bbsflmt`, a backtick in `` profiles/TINMORRY/P2S/TINMORRY PP-CF `.bbsflmt ``). These are cosmetic and don't affect import.
