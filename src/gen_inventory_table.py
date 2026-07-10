@@ -20,14 +20,14 @@ REFERENCES_MD = REPO_ROOT / "REFERENCES.md"
 
 
 def build_table():
-    rows = sorted(inventory_rows(), key=lambda r: (r["folder"], r["filename"]))
+    rows = sorted(inventory_rows(), key=lambda r: (r["slicer"], r["folder"], r["filename"]))
 
     lines = ["| Folder | File | Filament | Type | Compatible printer | Studio version | Bundle id |",
              "|---|---|---|---|---|---|---|"]
     for r in rows:
         mark = "" if r["original"] else "*"
         bundle_id = r["bundle_id"] if r["original"] else re.sub(r"_\d+$", "_&lt;generated&gt;", r["bundle_id"])
-        lines.append(f"| profiles/{r['folder']} | {r['filename']}{mark} | {r['filament_name']} | {r['type']} | "
+        lines.append(f"| profiles/{r['slicer']}/{r['folder']} | {r['filename']}{mark} | {r['filament_name']} | {r['type']} | "
                       f"{' + '.join(r['printers'])} | {r['version']} | {bundle_id} |")
     return "\n".join(lines)
 

@@ -18,16 +18,37 @@ OLD_REPO_DIR = REPO_ROOT / "reference-old-repo"
 BAMBUPRINTERS_DIR = REPO_ROOT / "reference-bambuprinters"
 CUSTOM_OVERRIDE_DIR = REPO_ROOT / "src" / "custom_overrides"
 
-# Vendor bundle data (<Vendor>/<Printer>/*.bbsflmt) lives under profiles/,
-# separate from this toolchain (src/) and from the gitignored delta-source
-# clones above.
-PROFILES_DIR = REPO_ROOT / "profiles"
+# Root of all profile data: profiles/<Slicer>/<Vendor>/<Printer>/*, separate
+# from this toolchain (src/) and from the gitignored delta-source clones
+# above. Slicer is the outermost layer because it determines the file
+# FORMAT itself (.bbsflmt is Bambu Studio's own bundle format; a future
+# OrcaSlicer export would need an entirely different file structure, not
+# just a different vendor/printer subtree), so it can't be mixed in
+# alongside vendor/printer the way those two can be mixed with each other.
+PROFILES_ROOT = REPO_ROOT / "profiles"
+
+# Every slicer this repo knows about, in display order. OrcaSlicer is
+# registered here as scaffolding only -- no OrcaSlicer export exists yet,
+# so its folder won't exist on disk and no generation pipeline targets it
+# until that changes.
+SLICERS = ["BambuStudio", "OrcaSlicer"]
+
+# The slicer the existing generation pipeline (find_gaps, build_bundle,
+# etc.) targets and reads/writes bundles for. Mirrors VENDOR below: this
+# pipeline only ever produces .bbsflmt (Bambu Studio) bundles today.
+SLICER = "BambuStudio"
+
+# The pipeline's own working root -- everything under target_printer_dir()
+# resolves relative to this. Doc generation (inventory_rows) walks every
+# slicer via PROFILES_ROOT directly instead, since it isn't tied to one
+# pipeline's output.
+PROFILES_DIR = PROFILES_ROOT / SLICER
 
 # Every vendor this repo knows about, in display order. Bundles live under
-# profiles/<Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the printer
-# half). eSUN and ELEGOO are registered here as scaffolding only -- no delta
-# source data exists for them yet, so no bundles are generated and their
-# folders won't exist on disk until real source data does.
+# profiles/<Slicer>/<Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the
+# printer half). eSUN and ELEGOO are registered here as scaffolding only --
+# no delta source data exists for them yet, so no bundles are generated and
+# their folders won't exist on disk until real source data does.
 VENDORS = ["TINMORRY", "eSUN", "ELEGOO"]
 
 # The vendor the old-repo/BambuPrinters delta-generation pipeline below
@@ -671,40 +692,45 @@ KNOWN_ORIGINAL_BUNDLES = {
 
 
 def is_original_bundle(folder: str, filament_name: str) -> bool:
-    """folder is the full vendor-qualified dir, e.g. 'TINMORRY/A1'."""
+    """folder is the vendor-qualified dir, e.g. 'TINMORRY/A1' -- not slicer-qualified,
+    since only one slicer (BambuStudio) has any bundles today. If a second slicer
+    ever ships bundles for the same (folder, filament_name), KNOWN_ORIGINAL_BUNDLES
+    will need a slicer dimension added."""
     return (folder, filament_name) in KNOWN_ORIGINAL_BUNDLES
 
 
 def inventory_rows():
-    """Yield one dict per .bbsflmt bundle on disk, across every vendor and printer.
+    """Yield one dict per .bbsflmt bundle on disk, across every slicer, vendor, and printer.
 
-    Vendors with no folder on disk yet (eSUN, ELEGOO -- see VENDORS) simply
-    yield nothing for that vendor.
+    Slicers (OrcaSlicer) or vendors (eSUN, ELEGOO) with no folder on disk
+    yet simply yield nothing -- see SLICERS/VENDORS.
     """
-    for vendor in VENDORS:
-        for printer_folder in INVENTORY_FOLDERS:
-            folder = f"{vendor}/{printer_folder}"
-            d = PROFILES_DIR / folder
-            for path in sorted(d.glob("*.bbsflmt")):
-                with zipfile.ZipFile(path) as z:
-                    bs = json.loads(z.read("bundle_structure.json"))
-                    printers = []
-                    types = set()
-                    for name in z.namelist():
-                        if not name.endswith(".json") or name == "bundle_structure.json":
-                            continue
-                        profile = json.loads(z.read(name))
-                        printers.extend(profile.get("compatible_printers", []))
-                        types.update(profile.get("filament_type", []))
-                yield {
-                    "vendor": vendor,
-                    "folder": folder,
-                    "path": path,
-                    "filename": path.name,
-                    "filament_name": bs["filament_name"],
-                    "type": "/".join(sorted(types)),
-                    "printers": printers,
-                    "version": bs["version"],
-                    "bundle_id": bs["bundle_id"],
-                    "original": is_original_bundle(folder, bs["filament_name"]),
-                }
+    for slicer in SLICERS:
+        for vendor in VENDORS:
+            for printer_folder in INVENTORY_FOLDERS:
+                folder = f"{vendor}/{printer_folder}"
+                d = PROFILES_ROOT / slicer / folder
+                for path in sorted(d.glob("*.bbsflmt")):
+                    with zipfile.ZipFile(path) as z:
+                        bs = json.loads(z.read("bundle_structure.json"))
+                        printers = []
+                        types = set()
+                        for name in z.namelist():
+                            if not name.endswith(".json") or name == "bundle_structure.json":
+                                continue
+                            profile = json.loads(z.read(name))
+                            printers.extend(profile.get("compatible_printers", []))
+                            types.update(profile.get("filament_type", []))
+                    yield {
+                        "slicer": slicer,
+                        "vendor": vendor,
+                        "folder": folder,
+                        "path": path,
+                        "filename": path.name,
+                        "filament_name": bs["filament_name"],
+                        "type": "/".join(sorted(types)),
+                        "printers": printers,
+                        "version": bs["version"],
+                        "bundle_id": bs["bundle_id"],
+                        "original": is_original_bundle(folder, bs["filament_name"]),
+                    }

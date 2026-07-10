@@ -2,7 +2,7 @@
 
 **Comparing:**
 - **Source:** `reference-bambuprinters/PETG_Matte_Filament(X2D-TinmorryBinhDuong).json` (TinmorryBinhDuong's BambuPrinters export)
-- **Generated bundle:** `profiles/TINMORRY/X2D/0.4mm/TINMORRY PETG Matte.bbsflmt` (produced by `src/convert_old_repo_to_printer.py`)
+- **Generated bundle:** `profiles/BambuStudio/TINMORRY/X2D/0.4mm/TINMORRY PETG Matte.bbsflmt` (produced by `src/convert_old_repo_to_printer.py`)
 
 **Date generated:** 2026-07-04
 

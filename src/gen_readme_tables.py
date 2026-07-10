@@ -2,8 +2,9 @@
 """
 Regenerate the "Available profiles" section in every README.*.md: one
 collapsible, per-printer table with a direct raw-download link and an
-Original/Derived tag for every .bbsflmt bundle, aimed at non-technical
-users who just want to click a link rather than clone the repo.
+Original/Derived tag for every .bbsflmt bundle, grouped by slicer then
+vendor, aimed at non-technical users who just want to click a link rather
+than clone the repo.
 
 Usage:
     python3 src/gen_readme_tables.py               # print all language blocks
@@ -23,7 +24,7 @@ import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, VENDORS, inventory_rows, strip_vendor  # noqa: E402
+from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, SLICERS, VENDORS, inventory_rows, strip_vendor  # noqa: E402
 
 GITHUB_OWNER = "MrCorncob"
 GITHUB_REPO = "filament-profiles"
@@ -66,51 +67,58 @@ PRINTER_LABELS = {
 }
 
 
-def raw_url(vendor: str, folder: str, filename: str) -> str:
-    path = f"profiles/{vendor}/{folder}/{filename}"
+def raw_url(slicer: str, vendor: str, folder: str, filename: str) -> str:
+    path = f"profiles/{slicer}/{vendor}/{folder}/{filename}"
     encoded = urllib.parse.quote(path)
     return f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{urllib.parse.quote(GITHUB_BRANCH, safe='')}/{encoded}"
 
 
 def grouped_rows():
-    rows = sorted(inventory_rows(), key=lambda r: (r["vendor"], r["folder"], r["filament_name"]))
-    by_vendor_folder = {(vendor, folder): [] for vendor in VENDORS for folder in INVENTORY_FOLDERS}
+    rows = sorted(inventory_rows(), key=lambda r: (r["slicer"], r["vendor"], r["folder"], r["filament_name"]))
+    by_slicer_vendor_folder = {
+        (slicer, vendor, folder): [] for slicer in SLICERS for vendor in VENDORS for folder in INVENTORY_FOLDERS
+    }
     for r in rows:
-        by_vendor_folder[(r["vendor"], strip_vendor(r["folder"]))].append(r)
-    return by_vendor_folder
+        by_slicer_vendor_folder[(r["slicer"], r["vendor"], strip_vendor(r["folder"]))].append(r)
+    return by_slicer_vendor_folder
 
 
 def render(lang: str) -> str:
-    by_vendor_folder = grouped_rows()
+    by_slicer_vendor_folder = grouped_rows()
     headers = LANGS[lang]["headers"]
     original_label, derived_label, link_label = LANGS[lang]["labels"]
 
-    vendor_blocks = []
-    for vendor in VENDORS:
-        printer_blocks = []
-        for folder in INVENTORY_FOLDERS:
-            rows = by_vendor_folder[(vendor, folder)]
-            if not rows:
+    slicer_blocks = []
+    for slicer in SLICERS:
+        vendor_blocks = []
+        for vendor in VENDORS:
+            printer_blocks = []
+            for folder in INVENTORY_FOLDERS:
+                rows = by_slicer_vendor_folder[(slicer, vendor, folder)]
+                if not rows:
+                    continue
+                summary = f"{PRINTER_LABELS[folder]} ({len(rows)})"
+                lines = [
+                    "<details>",
+                    f"<summary><strong>{summary}</strong></summary>",
+                    "",
+                    f"| {headers[0]} | {headers[1]} | {headers[2]} |",
+                    "|---|---|---|",
+                ]
+                for r in rows:
+                    source = original_label if r["original"] else derived_label
+                    url = raw_url(slicer, vendor, folder, r["filename"])
+                    lines.append(f"| {r['filament_name']} | {source} | [{link_label}]({url}) |")
+                lines.append("")
+                lines.append("</details>")
+                printer_blocks.append("\n".join(lines))
+            if not printer_blocks:
                 continue
-            summary = f"{PRINTER_LABELS[folder]} ({len(rows)})"
-            lines = [
-                "<details>",
-                f"<summary><strong>{summary}</strong></summary>",
-                "",
-                f"| {headers[0]} | {headers[1]} | {headers[2]} |",
-                "|---|---|---|",
-            ]
-            for r in rows:
-                source = original_label if r["original"] else derived_label
-                url = raw_url(vendor, folder, r["filename"])
-                lines.append(f"| {r['filament_name']} | {source} | [{link_label}]({url}) |")
-            lines.append("")
-            lines.append("</details>")
-            printer_blocks.append("\n".join(lines))
-        if not printer_blocks:
+            vendor_blocks.append(f"#### {vendor}\n\n" + "\n\n".join(printer_blocks))
+        if not vendor_blocks:
             continue
-        vendor_blocks.append(f"### {vendor}\n\n" + "\n\n".join(printer_blocks))
-    return "\n\n".join(vendor_blocks)
+        slicer_blocks.append(f"### {slicer}\n\n" + "\n\n".join(vendor_blocks))
+    return "\n\n".join(slicer_blocks)
 
 
 def splice(path: Path, body: str) -> str:
