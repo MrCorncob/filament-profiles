@@ -40,14 +40,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from _filament_lib import (  # noqa: E402
-    PRINTERS, REPO_ROOT, bundle_labels, build_bundle, choose_template, custom_override_path,
-    find_gaps, output_bundle_name,
+    PRINTERS, REPO_ROOT, VENDOR, bundle_labels, build_bundle, choose_template, custom_override_path,
+    find_gaps, output_bundle_name, target_printer_dir,
 )
 
 
 def convert_printer(printer_name: str, dry_run: bool):
-    info = PRINTERS[printer_name]
-    printer_dir = info["dir"]
+    printer_dir = target_printer_dir(printer_name)
     out_dir = REPO_ROOT / printer_dir
     skipped = []
 
@@ -68,7 +67,7 @@ def convert_printer(printer_name: str, dry_run: bool):
             continue
         template_printer_dir, template_bundle = template
 
-        output_name = output_bundle_name(gap["base_material"], gap["descriptor"])
+        output_name = output_bundle_name(VENDOR, gap["base_material"], gap["descriptor"])
         out_path = out_dir / f"{output_name}.bbsflmt"
 
         override_note = ""
@@ -83,7 +82,7 @@ def convert_printer(printer_name: str, dry_run: bool):
 
         bundle_structure, profile_path, profile, _override_path = build_bundle(
             printer_dir, output_name, gap["base_material"],
-            template_printer_dir, template_bundle, gap["source"]["path"],
+            template_printer_dir, template_bundle, gap["source"]["path"], VENDOR,
         )
         with zipfile.ZipFile(out_path, "w", zipfile.ZIP_DEFLATED) as z:
             z.writestr("bundle_structure.json", json.dumps(bundle_structure, indent=4))

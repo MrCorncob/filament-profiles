@@ -23,10 +23,10 @@ import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, inventory_rows  # noqa: E402
+from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, VENDORS, inventory_rows, strip_vendor  # noqa: E402
 
 GITHUB_OWNER = "MrCorncob"
-GITHUB_REPO = "Tinmorry-Bambu_BambuStudio"
+GITHUB_REPO = "filament-profiles"
 GITHUB_BRANCH = "all-printers"
 
 BEGIN = "<!-- BEGIN GENERATED PROFILE TABLES -->"
@@ -66,46 +66,51 @@ PRINTER_LABELS = {
 }
 
 
-def raw_url(folder: str, filename: str) -> str:
-    path = f"{folder}/{filename}"
+def raw_url(vendor: str, folder: str, filename: str) -> str:
+    path = f"{vendor}/{folder}/{filename}"
     encoded = urllib.parse.quote(path)
     return f"https://raw.githubusercontent.com/{GITHUB_OWNER}/{GITHUB_REPO}/{urllib.parse.quote(GITHUB_BRANCH, safe='')}/{encoded}"
 
 
 def grouped_rows():
-    rows = sorted(inventory_rows(), key=lambda r: (r["folder"], r["filament_name"]))
-    by_folder = {folder: [] for folder in INVENTORY_FOLDERS}
+    rows = sorted(inventory_rows(), key=lambda r: (r["vendor"], r["folder"], r["filament_name"]))
+    by_vendor_folder = {(vendor, folder): [] for vendor in VENDORS for folder in INVENTORY_FOLDERS}
     for r in rows:
-        by_folder[r["folder"]].append(r)
-    return by_folder
+        by_vendor_folder[(r["vendor"], strip_vendor(r["folder"]))].append(r)
+    return by_vendor_folder
 
 
 def render(lang: str) -> str:
-    by_folder = grouped_rows()
+    by_vendor_folder = grouped_rows()
     headers = LANGS[lang]["headers"]
     original_label, derived_label, link_label = LANGS[lang]["labels"]
 
-    blocks = []
-    for folder in INVENTORY_FOLDERS:
-        rows = by_folder[folder]
-        if not rows:
+    vendor_blocks = []
+    for vendor in VENDORS:
+        printer_blocks = []
+        for folder in INVENTORY_FOLDERS:
+            rows = by_vendor_folder[(vendor, folder)]
+            if not rows:
+                continue
+            summary = f"{PRINTER_LABELS[folder]} ({len(rows)})"
+            lines = [
+                "<details>",
+                f"<summary><strong>{summary}</strong></summary>",
+                "",
+                f"| {headers[0]} | {headers[1]} | {headers[2]} |",
+                "|---|---|---|",
+            ]
+            for r in rows:
+                source = original_label if r["original"] else derived_label
+                url = raw_url(vendor, folder, r["filename"])
+                lines.append(f"| {r['filament_name']} | {source} | [{link_label}]({url}) |")
+            lines.append("")
+            lines.append("</details>")
+            printer_blocks.append("\n".join(lines))
+        if not printer_blocks:
             continue
-        summary = f"{PRINTER_LABELS[folder]} ({len(rows)})"
-        lines = [
-            "<details>",
-            f"<summary><strong>{summary}</strong></summary>",
-            "",
-            f"| {headers[0]} | {headers[1]} | {headers[2]} |",
-            "|---|---|---|",
-        ]
-        for r in rows:
-            source = original_label if r["original"] else derived_label
-            url = raw_url(folder, r["filename"])
-            lines.append(f"| {r['filament_name']} | {source} | [{link_label}]({url}) |")
-        lines.append("")
-        lines.append("</details>")
-        blocks.append("\n".join(lines))
-    return "\n\n".join(blocks)
+        vendor_blocks.append(f"### {vendor}\n\n" + "\n\n".join(printer_blocks))
+    return "\n\n".join(vendor_blocks)
 
 
 def splice(path: Path, body: str) -> str:

@@ -20,17 +20,18 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from _filament_lib import PRINTERS, bundle_labels, find_gaps, is_engineering_capable  # noqa: E402
+from _filament_lib import PRINTERS, bundle_labels, find_gaps, is_engineering_capable, target_printer_dir  # noqa: E402
 
 
 def report_printer(printer_name: str):
     info = PRINTERS[printer_name]
-    existing = bundle_labels(info["dir"])
+    printer_dir = target_printer_dir(printer_name)
+    existing = bundle_labels(printer_dir)
 
     print(f"\n=== {printer_name} ({info['compatible']}) ===")
     print(f"  existing bundles: {', '.join(name for _, name, _ in existing) or '(none)'}")
-    print(f"  enclosed: {info['enclosed']}  |  has an engineering-tier bundle already: {is_engineering_capable(info['dir'])}"
-          f"  |  tier-proof active: {is_engineering_capable(info['dir']) and info['enclosed']}")
+    print(f"  enclosed: {info['enclosed']}  |  has an engineering-tier bundle already: {is_engineering_capable(printer_dir)}"
+          f"  |  tier-proof active: {is_engineering_capable(printer_dir) and info['enclosed']}")
 
     for gap in find_gaps(printer_name):
         print(f"  [{gap['verdict']:45s}] {gap['label']:24s} <- {gap['source']['source_dir']}/{gap['source']['file']}")

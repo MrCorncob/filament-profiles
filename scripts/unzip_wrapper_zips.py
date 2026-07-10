@@ -15,14 +15,18 @@ import sys
 import zipfile
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parent.parent
-PRINTER_DIRS = ["A1", "A1mini", "A2L", "H2C", "H2D", "H2S", "P1S", "P2S", "X2D"]
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _filament_lib import INVENTORY_FOLDERS, REPO_ROOT, VENDORS  # noqa: E402
 
 
 def find_wrapper_zips():
-    for d in PRINTER_DIRS:
-        for path in sorted((REPO_ROOT / d).rglob("*.zip")):
-            yield path
+    for vendor in VENDORS:
+        for printer_folder in INVENTORY_FOLDERS:
+            d = REPO_ROOT / vendor / printer_folder
+            if not d.exists():
+                continue
+            for path in sorted(d.rglob("*.zip")):
+                yield path
 
 
 def extract(zip_path: Path, dry_run: bool, delete_zip: bool):

@@ -18,6 +18,21 @@ OLD_REPO_DIR = REPO_ROOT / "reference-old-repo"
 BAMBUPRINTERS_DIR = REPO_ROOT / "reference-bambuprinters"
 CUSTOM_OVERRIDE_DIR = REPO_ROOT / "scripts" / "custom_overrides"
 
+# Every vendor this repo knows about, in display order. Bundles live under
+# <Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the printer half).
+# eSUN and ELEGOO are registered here as scaffolding only -- no delta
+# source data exists for them yet, so no bundles are generated and their
+# folders won't exist on disk until real source data does.
+VENDORS = ["TINMORRY", "eSUN", "ELEGOO"]
+
+# The vendor the old-repo/BambuPrinters delta-generation pipeline below
+# (find_gaps, build_bundle, etc.) targets. This pipeline is TINMORRY-only:
+# its gap-finding logic is built around reference-old-repo/'s and
+# reference-bambuprinters/'s TINMORRY-specific file shapes and can't be
+# pointed at another vendor without teaching it that vendor's own delta
+# format first.
+VENDOR = "TINMORRY"
+
 # Every printer folder in this repo, its exact compatible_printers string,
 # the machine code(s) that identify a delta as being FOR this exact
 # physical printer, and whether the printer has a physical enclosure (side
@@ -55,6 +70,27 @@ PRINTERS = {
     "P2S": {"dir": "P2S", "compatible": "Bambu Lab P2S 0.4 nozzle", "bbl_codes": {"p2s"}, "enclosed": True},
     "X2D": {"dir": "X2D/0.4mm", "compatible": "Bambu Lab X2D 0.4 nozzle", "bbl_codes": {"x2d"}, "enclosed": True},
 }
+
+
+def target_printer_dir(printer_name: str) -> str:
+    """VENDOR-qualified bundle directory for a printer, e.g. 'TINMORRY/X2D/0.4mm'.
+
+    This is what the generation pipeline (find_gaps, convert_old_repo_to_printer.py)
+    reads/writes -- PRINTERS[...]["dir"] itself stays a bare printer-only fragment
+    since it's also used as the hardware registry key for other vendors' bundles.
+    """
+    return f"{VENDOR}/{PRINTERS[printer_name]['dir']}"
+
+
+def strip_vendor(printer_dir: str) -> str:
+    """'TINMORRY/X2D/0.4mm' -> 'X2D/0.4mm'; leaves an already-bare fragment alone."""
+    parts = printer_dir.split("/", 1)
+    return parts[1] if parts[0] in VENDORS and len(parts) > 1 else printer_dir
+
+
+def printer_code_of(printer_dir: str) -> str:
+    """Bare printer code used inside zip member/profile names, e.g. 'H2D', 'X2D'."""
+    return strip_vendor(printer_dir).split("/")[0]
 
 # Materials that print fine on any Bambu machine regardless of enclosure --
 # includes fiber-reinforced PETG/PLA/PET variants, which Bambu Studio itself
@@ -274,7 +310,7 @@ def printer_filament_types(printer_dir: str) -> set:
     correctly as JSON text but don't byte-match the zip's stored (cp437)
     entry name, so looking them up by the declared path raises KeyError.
     """
-    printer_code = printer_dir.split("/")[0]  # e.g. "H2D", "X2D"
+    printer_code = printer_code_of(printer_dir)  # e.g. "H2D", "X2D"
     d = REPO_ROOT / printer_dir
     types = set()
     if not d.exists():
@@ -324,11 +360,12 @@ def find_gaps(printer_name: str):
     biased towards a machine-coded delta for this printer when one exists).
     """
     info = PRINTERS[printer_name]
-    existing_tokens = [tokens for _, _, tokens in bundle_labels(info["dir"])]
+    printer_dir = target_printer_dir(printer_name)
+    existing_tokens = [tokens for _, _, tokens in bundle_labels(printer_dir)]
     # Tier-proof (an unrelated engineering material already present) is
     # only trustworthy on a printer that's physically enclosed -- see the
     # PRINTERS docstring comment.
-    engineering_capable = is_engineering_capable(info["dir"]) and info["enclosed"]
+    engineering_capable = is_engineering_capable(printer_dir) and info["enclosed"]
 
     groups = {}
     for entry in delta_entries():
@@ -378,8 +415,8 @@ def display_descriptor(descriptor: set) -> str:
     return " ".join(words)
 
 
-def output_bundle_name(base_material: str, descriptor: set) -> str:
-    parts = ["TINMORRY", display_material(base_material)]
+def output_bundle_name(vendor: str, base_material: str, descriptor: set) -> str:
+    parts = [vendor, display_material(base_material)]
     desc = display_descriptor(descriptor)
     if desc:
         parts.append(desc)
@@ -392,18 +429,18 @@ def output_bundle_name(base_material: str, descriptor: set) -> str:
 # material coverage and each of these was itself either an original
 # TINMORRY export or already vetted when generated.
 FALLBACK_TEMPLATE = {
-    "ABS": ("X2D/0.4mm", "TINMORRY ABS Pro"),
-    "ASA": ("X2D/0.4mm", "TINMORRY ASA basic"),
-    "ASA-CF": ("X2D/0.4mm", "TINMORRY ASA CF"),
-    "PC": ("X2D/0.4mm", "TINMORRY ABS Pro"),
-    "PA-CF": ("X2D/0.4mm", "TINMORRY PA-CF"),
-    "PAHT-CF": ("X2D/0.4mm", "TINMORRY PAHT-CF"),
-    "PET-CF": ("X2D/0.4mm", "TINMORRY PET CF"),
-    "PETG-CF": ("X2D/0.4mm", "TINMORRY PETG CF"),
-    "PLA-CF": ("X2D/0.4mm", "TINMORRY PLA CF"),
-    "PLA": ("X2D/0.4mm", "TINMORRY PLA matte"),
-    "PETG": ("X2D/0.4mm", "TINMORRY PETG ECO"),
-    "TPU": ("X2D/0.4mm", "TINMORRY TPU 95A"),
+    "ABS": ("TINMORRY/X2D/0.4mm", "TINMORRY ABS Pro"),
+    "ASA": ("TINMORRY/X2D/0.4mm", "TINMORRY ASA basic"),
+    "ASA-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY ASA CF"),
+    "PC": ("TINMORRY/X2D/0.4mm", "TINMORRY ABS Pro"),
+    "PA-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
+    "PAHT-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PAHT-CF"),
+    "PET-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PET CF"),
+    "PETG-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PETG CF"),
+    "PLA-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PLA CF"),
+    "PLA": ("TINMORRY/X2D/0.4mm", "TINMORRY PLA matte"),
+    "PETG": ("TINMORRY/X2D/0.4mm", "TINMORRY PETG ECO"),
+    "TPU": ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
 }
 
 
@@ -426,13 +463,14 @@ def choose_template(printer_dir: str, base_material: str, existing_labels=None):
     everything tracing back to a real, originally-existing bundle.
     """
     family = family_of(base_material)
+    printer_code = printer_code_of(printer_dir)
     labels = bundle_labels(printer_dir) if existing_labels is None else existing_labels
     for path, name, _ in labels:
         with zipfile.ZipFile(path) as z:
             for zname in z.namelist():
                 if not zname.endswith(".json") or zname == "bundle_structure.json":
                     continue
-                if printer_dir.split("/")[0] not in zname:
+                if printer_code not in zname:
                     continue
                 profile = json.loads(z.read(zname))
                 if base_material in profile.get("filament_type", []):
@@ -442,7 +480,7 @@ def choose_template(printer_dir: str, base_material: str, existing_labels=None):
             for zname in z.namelist():
                 if not zname.endswith(".json") or zname == "bundle_structure.json":
                     continue
-                if printer_dir.split("/")[0] not in zname:
+                if printer_code not in zname:
                     continue
                 profile = json.loads(z.read(zname))
                 if any(family_of(t) == family for t in profile.get("filament_type", [])):
@@ -470,7 +508,7 @@ def load_bundle_profile(printer_dir: str, bundle_name: str):
     bundle_structure.json's declared path, since a couple of bundles have
     non-ASCII filenames that don't byte-match their cp437-stored zip entry.
     """
-    printer_code = printer_dir.split("/")[0]
+    printer_code = printer_code_of(printer_dir)
     path = REPO_ROOT / printer_dir / f"{bundle_name}.bbsflmt"
     with zipfile.ZipFile(path) as z:
         bundle_structure = json.loads(z.read("bundle_structure.json"))
@@ -558,7 +596,7 @@ def load_custom_override(printer_dir: str, output_name: str):
 
 
 def build_bundle(printer_dir: str, output_name: str, filament_type: str,
-                  template_printer_dir: str, template_bundle: str, source_path):
+                  template_printer_dir: str, template_bundle: str, source_path, vendor: str):
     """Merge a template + delta-source profile into a new bundle dict pair,
     ready to write, then layer any custom override on top (see
     load_custom_override()).
@@ -569,7 +607,7 @@ def build_bundle(printer_dir: str, output_name: str, filament_type: str,
     bundle_structure, template_profile = load_bundle_profile(template_printer_dir, template_bundle)
     delta = json.loads(Path(source_path).read_text())
 
-    compatible = next(p for p in PRINTERS.values() if p["dir"] == printer_dir)["compatible"]
+    compatible = next(p for p in PRINTERS.values() if p["dir"] == strip_vendor(printer_dir))["compatible"]
 
     profile = merge_profile(template_profile, delta)
     profile_name = f"{output_name} @{compatible}"
@@ -577,19 +615,19 @@ def build_bundle(printer_dir: str, output_name: str, filament_type: str,
     profile["filament_settings_id"] = [output_name]
     profile["filament_id"] = make_filament_id(output_name, printer_dir)
     profile["filament_type"] = [filament_type]
-    profile["filament_vendor"] = ["TINMORRY"]
+    profile["filament_vendor"] = [vendor]
     profile["compatible_printers"] = [compatible]
 
     override, override_path = load_custom_override(printer_dir, output_name)
     if override:
         profile.update(override)
 
-    profile_path = f"TINMORRY/{profile_name}.json"
+    profile_path = f"{vendor}/{profile_name}.json"
     new_bundle_structure = {
         "bundle_id": f"{BUNDLE_ID_PREFIX}_{output_name}_{int(time.time())}",
         "bundle_type": "filament config bundle",
         "filament_name": output_name,
-        "filament_vendor": [{"filament_path": [profile_path], "vendor": "TINMORRY"}],
+        "filament_vendor": [{"filament_path": [profile_path], "vendor": vendor}],
         "version": bundle_structure["version"],
     }
     return new_bundle_structure, profile_path, profile, override_path
@@ -609,51 +647,59 @@ INVENTORY_FOLDERS = ["A1", "A1mini", "A2L", "H2C", "H2D", "H2S", "P1S", "P2S", "
 # any other), so this allowlist is maintained by hand -- extend it whenever
 # a genuinely new original TINMORRY export is added to the repo.
 KNOWN_ORIGINAL_BUNDLES = {
-    ("A1mini", "TINMORRY PETG Matte"), ("A1mini", "TINMORRY TPU 95A"),
-    ("A2L", "TINMORRY PETG ECO"), ("A2L", "TINMORRY PETG Metallic"),
-    ("A2L", "TINMORRY PLA Rapid"), ("A2L", "TINMORRY PLA Silk"), ("A2L", "TINMORRY TPU 95A"),
-    ("H2C", "TINMORRY PLA CF"), ("H2C", "TINMORRY PLA Rapid"),
-    ("H2D", "TINMORRY ABS pro"), ("H2D", "TINMORRY ASA CF"), ("H2D", "TINMORRY PLA Matte，"),
-    ("H2S", "TINMORRY ASA CF"), ("H2S", "TINMORRY PETG CF"),
-    ("H2S", "TINMORRY PLA Rapid"), ("H2S", "TINMORRY TPU 95A"),
-    ("P2S", "TINMORRY ABS Pro"), ("P2S", "TINMORRY PETG Matte"),
-    ("P2S", "TINMORRY PP-CF `"), ("P2S", "TINMORRY TPU 95A"),
-    ("X2D/0.4mm", "TINMORRY ABS Pro"), ("X2D/0.4mm", "TINMORRY ASA basic"),
-    ("X2D/0.4mm", "TINMORRY PETG CF"), ("X2D/0.4mm", "TINMORRY PETG ECO"),
-    ("X2D/0.4mm", "TINMORRY PETG GF"), ("X2D/0.4mm", "TINMORRY PETG Galaxy"),
-    ("X2D/0.4mm", "TINMORRY PETG Marble"), ("X2D/0.4mm", "TINMORRY PETG Metallic"),
-    ("X2D/0.4mm", "TINMORRY PETG Sparkly"), ("X2D/0.4mm", "TINMORRY PLA matte"),
-    ("X2D/0.4mm", "TINMORRY TPU 95A"),
+    ("TINMORRY/A1mini", "TINMORRY PETG Matte"), ("TINMORRY/A1mini", "TINMORRY TPU 95A"),
+    ("TINMORRY/A2L", "TINMORRY PETG ECO"), ("TINMORRY/A2L", "TINMORRY PETG Metallic"),
+    ("TINMORRY/A2L", "TINMORRY PLA Rapid"), ("TINMORRY/A2L", "TINMORRY PLA Silk"), ("TINMORRY/A2L", "TINMORRY TPU 95A"),
+    ("TINMORRY/H2C", "TINMORRY PLA CF"), ("TINMORRY/H2C", "TINMORRY PLA Rapid"),
+    ("TINMORRY/H2D", "TINMORRY ABS pro"), ("TINMORRY/H2D", "TINMORRY ASA CF"), ("TINMORRY/H2D", "TINMORRY PLA Matte，"),
+    ("TINMORRY/H2S", "TINMORRY ASA CF"), ("TINMORRY/H2S", "TINMORRY PETG CF"),
+    ("TINMORRY/H2S", "TINMORRY PLA Rapid"), ("TINMORRY/H2S", "TINMORRY TPU 95A"),
+    ("TINMORRY/P2S", "TINMORRY ABS Pro"), ("TINMORRY/P2S", "TINMORRY PETG Matte"),
+    ("TINMORRY/P2S", "TINMORRY PP-CF `"), ("TINMORRY/P2S", "TINMORRY TPU 95A"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY ABS Pro"), ("TINMORRY/X2D/0.4mm", "TINMORRY ASA basic"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY PETG CF"), ("TINMORRY/X2D/0.4mm", "TINMORRY PETG ECO"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY PETG GF"), ("TINMORRY/X2D/0.4mm", "TINMORRY PETG Galaxy"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY PETG Marble"), ("TINMORRY/X2D/0.4mm", "TINMORRY PETG Metallic"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY PETG Sparkly"), ("TINMORRY/X2D/0.4mm", "TINMORRY PLA matte"),
+    ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
 }
 
 
 def is_original_bundle(folder: str, filament_name: str) -> bool:
+    """folder is the full vendor-qualified dir, e.g. 'TINMORRY/A1'."""
     return (folder, filament_name) in KNOWN_ORIGINAL_BUNDLES
 
 
 def inventory_rows():
-    """Yield one dict per .bbsflmt bundle on disk, across all printers."""
-    for folder in INVENTORY_FOLDERS:
-        d = REPO_ROOT / folder
-        for path in sorted(d.glob("*.bbsflmt")):
-            with zipfile.ZipFile(path) as z:
-                bs = json.loads(z.read("bundle_structure.json"))
-                printers = []
-                types = set()
-                for name in z.namelist():
-                    if not name.endswith(".json") or name == "bundle_structure.json":
-                        continue
-                    profile = json.loads(z.read(name))
-                    printers.extend(profile.get("compatible_printers", []))
-                    types.update(profile.get("filament_type", []))
-            yield {
-                "folder": folder,
-                "path": path,
-                "filename": path.name,
-                "filament_name": bs["filament_name"],
-                "type": "/".join(sorted(types)),
-                "printers": printers,
-                "version": bs["version"],
-                "bundle_id": bs["bundle_id"],
-                "original": is_original_bundle(folder, bs["filament_name"]),
-            }
+    """Yield one dict per .bbsflmt bundle on disk, across every vendor and printer.
+
+    Vendors with no folder on disk yet (eSUN, ELEGOO -- see VENDORS) simply
+    yield nothing for that vendor.
+    """
+    for vendor in VENDORS:
+        for printer_folder in INVENTORY_FOLDERS:
+            folder = f"{vendor}/{printer_folder}"
+            d = REPO_ROOT / folder
+            for path in sorted(d.glob("*.bbsflmt")):
+                with zipfile.ZipFile(path) as z:
+                    bs = json.loads(z.read("bundle_structure.json"))
+                    printers = []
+                    types = set()
+                    for name in z.namelist():
+                        if not name.endswith(".json") or name == "bundle_structure.json":
+                            continue
+                        profile = json.loads(z.read(name))
+                        printers.extend(profile.get("compatible_printers", []))
+                        types.update(profile.get("filament_type", []))
+                yield {
+                    "vendor": vendor,
+                    "folder": folder,
+                    "path": path,
+                    "filename": path.name,
+                    "filament_name": bs["filament_name"],
+                    "type": "/".join(sorted(types)),
+                    "printers": printers,
+                    "version": bs["version"],
+                    "bundle_id": bs["bundle_id"],
+                    "original": is_original_bundle(folder, bs["filament_name"]),
+                }

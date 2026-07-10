@@ -2,7 +2,7 @@
 
 **Comparing:**
 - **Source:** `reference-bambuprinters/PETG_Matte_Filament(X2D-TinmorryBinhDuong).json` (TinmorryBinhDuong's BambuPrinters export)
-- **Generated bundle:** `X2D/0.4mm/TINMORRY PETG Matte.bbsflmt` (produced by `scripts/convert_old_repo_to_printer.py`)
+- **Generated bundle:** `TINMORRY/X2D/0.4mm/TINMORRY PETG Matte.bbsflmt` (produced by `scripts/convert_old_repo_to_printer.py`)
 
 **Date generated:** 2026-07-04
 
@@ -60,7 +60,7 @@ The **source** specifies genuinely different values for the Bowden slots than fo
 - AMS drying temperature overstated by **10°C** (65°C vs. the source's real 55°C for Bowden)
 - Retraction distance understated by **1mm** (3mm vs. the source's real 4mm for Bowden)
 
-**Recommendation:** if this matters for real prints on a Bowden-extruder X2D, this is exactly the kind of correction the repo's new custom-override mechanism (`scripts/custom_overrides/X2D/0.4mm/TINMORRY PETG Matte.json`) was built for — it can force the correct per-slot values without changing the generic merge convention used by every other bundle.
+**Recommendation:** if this matters for real prints on a Bowden-extruder X2D, this is exactly the kind of correction the repo's new custom-override mechanism (`scripts/custom_overrides/TINMORRY/X2D/0.4mm/TINMORRY PETG Matte.json`) was built for — it can force the correct per-slot values without changing the generic merge convention used by every other bundle.
 
 ---
 
