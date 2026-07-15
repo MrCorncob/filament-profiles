@@ -58,28 +58,47 @@ src/       生成新 bundle 的 Python 工具链（详见 CLAUDE.md）
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PC%20GF.bbsflmt) |
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU.bbsflmt) |
-| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%2095a.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PC GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PC%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20TPU.bbsflmt) |
+| TINMORRY TPU 95a | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20TPU%2095a.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab A1 (0.2mm nozzle) (11)</strong></summary>
+
+| 耗材 | 来源 | 下载 |
+|---|---|---|
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1/0.2mm/TINMORRY%20PLA%20Silk.bbsflmt) |
 
 </details>
 
@@ -88,26 +107,45 @@ src/       生成新 bundle 的 Python 工具链（详见 CLAUDE.md）
 
 | 耗材 | 来源 | 下载 |
 |---|---|---|
-| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF.bbsflmt) |
-| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PET%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF.bbsflmt) |
-| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
-| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
-| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20ECO.bbsflmt) |
-| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20GF.bbsflmt) |
-| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Galaxy.bbsflmt) |
-| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20HS.bbsflmt) |
-| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Marble.bbsflmt) |
-| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Matte.bbsflmt) |
-| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Metallic.bbsflmt) |
-| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PETG%20Sparkly.bbsflmt) |
-| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA.bbsflmt) |
-| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20CF.bbsflmt) |
-| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Galaxy.bbsflmt) |
-| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Matte.bbsflmt) |
-| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20PLA%20Silk.bbsflmt) |
-| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%2095A.bbsflmt) |
-| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/TINMORRY%20TPU%20GF.bbsflmt) |
+| TINMORRY PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PET%20CF.bbsflmt) |
+| TINMORRY PET CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PET%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20CF.bbsflmt) |
+| TINMORRY PETG CF GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20CF%20GF.bbsflmt) |
+| TINMORRY PETG CF PP | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20CF%20PP.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20GF.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PLA%20CF.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY TPU 95A | 原版 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20TPU%2095A.bbsflmt) |
+| TINMORRY TPU GF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.4mm/TINMORRY%20TPU%20GF.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab A1 mini (0.2mm nozzle) (11)</strong></summary>
+
+| 耗材 | 来源 | 下载 |
+|---|---|---|
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PLA.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PLA%20Matte.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/A1mini/0.2mm/TINMORRY%20PLA%20Silk.bbsflmt) |
 
 </details>
 
@@ -329,97 +367,27 @@ src/       生成新 bundle 的 Python 工具链（详见 CLAUDE.md）
 
 </details>
 
+<details>
+<summary><strong>Bambu Lab X2D (0.2mm nozzle) (12)</strong></summary>
+
+| 耗材 | 来源 | 下载 |
+|---|---|---|
+| TINMORRY ABS Pro | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20ABS%20Pro.bbsflmt) |
+| TINMORRY ASA basic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20ASA%20basic.bbsflmt) |
+| TINMORRY PETG ECO | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20ECO.bbsflmt) |
+| TINMORRY PETG Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20Galaxy.bbsflmt) |
+| TINMORRY PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20HS.bbsflmt) |
+| TINMORRY PETG Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20Marble.bbsflmt) |
+| TINMORRY PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20Matte.bbsflmt) |
+| TINMORRY PETG Metallic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20Metallic.bbsflmt) |
+| TINMORRY PETG Sparkly | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PETG%20Sparkly.bbsflmt) |
+| TINMORRY PLA Galaxy | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PLA%20Galaxy.bbsflmt) |
+| TINMORRY PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PLA%20Silk.bbsflmt) |
+| TINMORRY PLA matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/TINMORRY/X2D/0.2mm/TINMORRY%20PLA%20matte.bbsflmt) |
+
+</details>
+
 #### eSUN
-
-<details>
-<summary><strong>Bambu Lab A1 (37)</strong></summary>
-
-| 耗材 | 来源 | 下载 |
-|---|---|---|
-| eSUN PEBA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1/eSUN%20TPU%20LW.bbsflmt) |
-
-</details>
-
-<details>
-<summary><strong>Bambu Lab A1 mini (37)</strong></summary>
-
-| 耗材 | 来源 | 下载 |
-|---|---|---|
-| eSUN PEBA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA.bbsflmt) |
-| eSUN PEBA 85A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2085A.bbsflmt) |
-| eSUN PEBA 90A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%2090A.bbsflmt) |
-| eSUN PEBA LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PEBA%20LW.bbsflmt) |
-| eSUN PET CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PET%20CF.bbsflmt) |
-| eSUN PETG | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG.bbsflmt) |
-| eSUN PETG Basic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Basic.bbsflmt) |
-| eSUN PETG CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20CF.bbsflmt) |
-| eSUN PETG ESD | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20ESD.bbsflmt) |
-| eSUN PETG HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20HS.bbsflmt) |
-| eSUN PETG Luminous | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Luminous.bbsflmt) |
-| eSUN PETG Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PETG%20Matte.bbsflmt) |
-| eSUN PLA | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA.bbsflmt) |
-| eSUN PLA Basic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Basic.bbsflmt) |
-| eSUN PLA CF | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20CF.bbsflmt) |
-| eSUN PLA Clear | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Clear.bbsflmt) |
-| eSUN PLA HS | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20HS.bbsflmt) |
-| eSUN PLA LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20LW.bbsflmt) |
-| eSUN PLA Lite | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Lite.bbsflmt) |
-| eSUN PLA Luminous | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Luminous.bbsflmt) |
-| eSUN PLA Magic | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Magic.bbsflmt) |
-| eSUN PLA Marble | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Marble.bbsflmt) |
-| eSUN PLA Matte | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Matte.bbsflmt) |
-| eSUN PLA Metal | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Metal.bbsflmt) |
-| eSUN PLA Rock UV | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Rock%20UV.bbsflmt) |
-| eSUN PLA ST | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20ST.bbsflmt) |
-| eSUN PLA Silk | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Silk.bbsflmt) |
-| eSUN PLA Twinkle | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Twinkle.bbsflmt) |
-| eSUN PLA Wood | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20PLA%20Wood.bbsflmt) |
-| eSUN TPE 83A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPE%2083A.bbsflmt) |
-| eSUN TPU | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU.bbsflmt) |
-| eSUN TPU 64D | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2064D.bbsflmt) |
-| eSUN TPU 80A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2080A.bbsflmt) |
-| eSUN TPU 85A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2085A.bbsflmt) |
-| eSUN TPU 90A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2090A.bbsflmt) |
-| eSUN TPU 95A | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%2095A.bbsflmt) |
-| eSUN TPU LW | 衍生 | [下载](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/eSUN/A1mini/eSUN%20TPU%20LW.bbsflmt) |
-
-</details>
 
 <details>
 <summary><strong>Bambu Lab A2L (37)</strong></summary>

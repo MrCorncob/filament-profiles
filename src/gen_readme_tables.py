@@ -55,8 +55,10 @@ LANGS = {
 
 # Display name shown as each collapsible section's heading.
 PRINTER_LABELS = {
-    "A1": "Bambu Lab A1",
-    "A1mini": "Bambu Lab A1 mini",
+    "A1/0.4mm": "Bambu Lab A1",
+    "A1/0.2mm": "Bambu Lab A1 (0.2mm nozzle)",
+    "A1mini/0.4mm": "Bambu Lab A1 mini",
+    "A1mini/0.2mm": "Bambu Lab A1 mini (0.2mm nozzle)",
     "A2L": "Bambu Lab A2L",
     "H2C": "Bambu Lab H2C",
     "H2D": "Bambu Lab H2D",
@@ -64,6 +66,7 @@ PRINTER_LABELS = {
     "P1S": "Bambu Lab P1S",
     "P2S": "Bambu Lab P2S",
     "X2D/0.4mm": "Bambu Lab X2D",
+    "X2D/0.2mm": "Bambu Lab X2D (0.2mm nozzle)",
 }
 
 

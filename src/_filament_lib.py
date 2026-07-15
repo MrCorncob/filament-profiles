@@ -86,8 +86,8 @@ VENDOR = "TINMORRY"
 # per-printer export tagged for it, hence it's registered here even though
 # A2L has no "@BBL" code of its own in reference-old-repo/.
 PRINTERS = {
-    "A1": {"dir": "A1", "compatible": "Bambu Lab A1 0.4 nozzle", "bbl_codes": {"a1"}, "enclosed": False},
-    "A1mini": {"dir": "A1mini", "compatible": "Bambu Lab A1 mini 0.4 nozzle", "bbl_codes": {"a1m"}, "enclosed": False},
+    "A1": {"dir": "A1/0.4mm", "compatible": "Bambu Lab A1 0.4 nozzle", "bbl_codes": {"a1"}, "enclosed": False},
+    "A1mini": {"dir": "A1mini/0.4mm", "compatible": "Bambu Lab A1 mini 0.4 nozzle", "bbl_codes": {"a1m"}, "enclosed": False},
     "A2L": {"dir": "A2L", "compatible": "Bambu Lab A2L 0.4 nozzle", "bbl_codes": {"a2l"}, "enclosed": False},
     "H2C": {"dir": "H2C", "compatible": "Bambu Lab H2C 0.4 nozzle", "bbl_codes": {"h2c"}, "enclosed": True},
     "H2D": {"dir": "H2D", "compatible": "Bambu Lab H2D 0.4 nozzle", "bbl_codes": {"h2d"}, "enclosed": True},
@@ -116,9 +116,22 @@ def strip_vendor(printer_dir: str) -> str:
     return parts[1] if parts[0] in VENDORS and len(parts) > 1 else printer_dir
 
 
+# printer_code_of() derives its result straight from the printer_dir path
+# segment (e.g. "H2D" from "TINMORRY/H2D"), which matches the token
+# embedded in every printer's own zip-internal filenames -- except A1
+# mini: its folder segment is the space-free "A1mini", but Bambu's own
+# display name (and therefore the token actually embedded in zip member
+# filenames, e.g. "TINMORRY PLA @Bambu Lab A1 mini 0.4 nozzle.json") is
+# "A1 mini" with a space. Without this override, every printer_code_of()
+# caller (load_bundle_profile, choose_template, printer_filament_types)
+# silently fails to match any of A1 mini's own bundles.
+PRINTER_CODE_OVERRIDES = {"A1mini": "A1 mini"}
+
+
 def printer_code_of(printer_dir: str) -> str:
     """Bare printer code used inside zip member/profile names, e.g. 'H2D', 'X2D'."""
-    return strip_vendor(printer_dir).split("/")[0]
+    code = strip_vendor(printer_dir).split("/")[0]
+    return PRINTER_CODE_OVERRIDES.get(code, code)
 
 # Materials that print fine on any Bambu machine regardless of enclosure --
 # includes fiber-reinforced PETG/PLA/PET variants, which Bambu Studio itself
@@ -823,12 +836,119 @@ def build_bundle(printer_dir: str, output_name: str, filament_type: str,
 
 
 # ---------------------------------------------------------------------------
+# 0.2mm-nozzle derivation (used by derive_nozzle_variants.py)
+#
+# Grounded in BambuStudio's own official system profiles (see e.g.
+# ~/Library/Application Support/BambuStudio/system/BBL/filament/ on a
+# machine with Studio installed) rather than an invented scaling factor.
+# Comparing every 0.4mm/0.2mm pair for the same material+printer across
+# that library (PLA/PETG/ABS/ASA on A1 and X2D) showed:
+#   (1) only filament_max_volumetric_speed and compatible_printers change
+#       between nozzle sizes -- temps, flow ratio, etc. are identical;
+#   (2) the 0.2mm cap is an ABSOLUTE per-material constant, not a ratio of
+#       the 0.4mm value (e.g. PETG caps at 1 mm3/s at 0.2mm on both A1 and
+#       X2D even though their 0.4mm values differ, 8 vs 12);
+#   (3) Bambu never ships a 0.2mm profile for any CF/GF-reinforced,
+#       TPU/flexible, or PA/nylon material, on any printer -- matches
+#       physical reality (abrasive fiber wears out a 0.2mm brass orifice;
+#       flexible filament doesn't extrude well through one).
+# ---------------------------------------------------------------------------
+
+# filament_type values Bambu ships a 0.2mm-nozzle profile for.
+NOZZLE_02_ALLOWED_TYPES = {"PLA", "PETG", "ABS", "ASA", "PC"}
+
+# Reinforcement descriptors that gate a bundle out of 0.2mm derivation even
+# when filament_type alone doesn't encode the reinforcement -- e.g. this
+# repo's "TINMORRY PC GF" and "TINMORRY PETG CF PP" both carry a plain
+# filament_type of "PC"/"PETG" (confirmed by inspection), so the type check
+# above isn't sufficient on its own; the bundle's own name also has to be
+# checked for these tokens (see normalize()).
+NOZZLE_02_EXCLUDE_TOKENS = {"cf", "gf"}
+
+# Absolute filament_max_volumetric_speed cap at 0.2mm, per filament_type --
+# read directly off Bambu's own "Generic <type> @BBL <printer> 0.2
+# nozzle.json" system profiles (identical value across every printer
+# checked, since the bottleneck is nozzle-orifice geometry, not the
+# hotend). PC's value is unused by any current TINMORRY bundle (the only
+# PC-typed bundle, "TINMORRY PC GF", is GF-reinforced and excluded above)
+# but kept for completeness/future bundles.
+NOZZLE_02_MAX_VOLUMETRIC_SPEED = {
+    "PLA": "1.6", "PETG": "1", "ABS": "2", "ASA": "2", "PC": "1",
+}
+
+# Sibling folders for 0.2mm-derived TINMORRY bundles, alongside each
+# printer's own 0.4mm/ subfolder (see PRINTERS' "dir" -- A1 and A1mini
+# were restructured from a flat layout into 0.4mm/+0.2mm/ to match X2D's
+# existing convention). TINMORRY-only for now.
+NOZZLE_02_TARGETS = {
+    "X2D": "TINMORRY/X2D/0.2mm",
+    "A1": "TINMORRY/A1/0.2mm",
+    "A1mini": "TINMORRY/A1mini/0.2mm",
+}
+
+
+def nozzle_02_eligible(filament_type: str, filament_name: str) -> bool:
+    """Whether a bundle has real evidence a 0.2mm nozzle can print it -- see
+    module comment above for the Bambu-system-profile grounding."""
+    if filament_type not in NOZZLE_02_ALLOWED_TYPES:
+        return False
+    return not (normalize(filament_name) & NOZZLE_02_EXCLUDE_TOKENS)
+
+
+def derive_nozzle_02_bundle(source_printer_dir: str, target_printer_dir: str, bundle_name: str, vendor: str):
+    """Derive a 0.2mm-nozzle counterpart of an existing 0.4mm bundle.
+
+    Copies the 0.4mm bundle's profile unchanged except for
+    filament_max_volumetric_speed (replaced with the absolute 0.2mm cap
+    for this material, see NOZZLE_02_MAX_VOLUMETRIC_SPEED), compatible_printers,
+    and name -- matching what Bambu's own 0.4mm/0.2mm profile pairs do.
+    filament_id is regenerated via make_filament_id (already hashes
+    printer_dir, so it naturally differs from the 0.4mm bundle's id even
+    though output_name is unchanged).
+
+    Returns (bundle_structure, profile_path, profile) or None if the
+    bundle's filament_type isn't in NOZZLE_02_MAX_VOLUMETRIC_SPEED (should
+    only happen if a caller skips the nozzle_02_eligible check).
+    """
+    bundle_structure, profile = load_bundle_profile(source_printer_dir, bundle_name)
+    filament_type = profile["filament_type"][0]
+    mvs = NOZZLE_02_MAX_VOLUMETRIC_SPEED.get(filament_type)
+    if mvs is None:
+        return None
+
+    compatible_04 = profile["compatible_printers"][0]
+    compatible_02 = compatible_04.replace("0.4 nozzle", "0.2 nozzle")
+    output_name = bundle_name
+
+    new_profile = dict(profile)
+    new_profile["filament_max_volumetric_speed"] = [mvs] * len(profile["filament_extruder_variant"])
+    new_profile["compatible_printers"] = [compatible_02]
+    new_profile["name"] = profile["name"].replace(compatible_04, compatible_02)
+    new_profile["filament_id"] = make_filament_id(output_name, target_printer_dir)
+
+    profile_path = f"{vendor}/{output_name} @{compatible_02}.json"
+    new_bundle_structure = {
+        "bundle_id": f"{BUNDLE_ID_PREFIX}_{output_name}_{int(time.time())}",
+        "bundle_type": "filament config bundle",
+        "filament_name": bundle_structure["filament_name"],
+        "filament_vendor": [{"filament_path": [profile_path], "vendor": vendor}],
+        "version": bundle_structure["version"],
+    }
+    return new_bundle_structure, profile_path, new_profile
+
+
+# ---------------------------------------------------------------------------
 # Inventory (used by gen_inventory_table.py and gen_readme_tables.py)
 # ---------------------------------------------------------------------------
 
 # All printer folders, in the display order used across README.md,
-# REFERENCES.md, and generated tables.
-INVENTORY_FOLDERS = ["A1", "A1mini", "A2L", "H2C", "H2D", "H2S", "P1S", "P2S", "X2D/0.4mm"]
+# REFERENCES.md, and generated tables. A1, A1mini, and X2D each have a
+# 0.4mm/ + 0.2mm/ nozzle-size subfolder pair (see PRINTERS' "dir" and
+# NOZZLE_02_TARGETS); every other printer is still flat/single-nozzle.
+INVENTORY_FOLDERS = [
+    "A1/0.4mm", "A1/0.2mm", "A1mini/0.4mm", "A1mini/0.2mm", "A2L", "H2C", "H2D", "H2S", "P1S", "P2S",
+    "X2D/0.4mm", "X2D/0.2mm",
+]
 
 # (folder, filament_name) pairs that are real TINMORRY exports, not
 # generated by convert_old_repo_to_printer.py. There's no in-band signal
@@ -836,7 +956,7 @@ INVENTORY_FOLDERS = ["A1", "A1mini", "A2L", "H2C", "H2D", "H2S", "P1S", "P2S", "
 # any other), so this allowlist is maintained by hand -- extend it whenever
 # a genuinely new original TINMORRY export is added to the repo.
 KNOWN_ORIGINAL_BUNDLES = {
-    ("TINMORRY/A1mini", "TINMORRY PETG Matte"), ("TINMORRY/A1mini", "TINMORRY TPU 95A"),
+    ("TINMORRY/A1mini/0.4mm", "TINMORRY PETG Matte"), ("TINMORRY/A1mini/0.4mm", "TINMORRY TPU 95A"),
     ("TINMORRY/A2L", "TINMORRY PETG ECO"), ("TINMORRY/A2L", "TINMORRY PETG Metallic"),
     ("TINMORRY/A2L", "TINMORRY PLA Rapid"), ("TINMORRY/A2L", "TINMORRY PLA Silk"), ("TINMORRY/A2L", "TINMORRY TPU 95A"),
     ("TINMORRY/H2C", "TINMORRY PLA CF"), ("TINMORRY/H2C", "TINMORRY PLA Rapid"),
@@ -855,7 +975,7 @@ KNOWN_ORIGINAL_BUNDLES = {
 
 
 def is_original_bundle(folder: str, filament_name: str) -> bool:
-    """folder is the vendor-qualified dir, e.g. 'TINMORRY/A1' -- not slicer-qualified,
+    """folder is the vendor-qualified dir, e.g. 'TINMORRY/A1/0.4mm' -- not slicer-qualified,
     since only one slicer (BambuStudio) has any bundles today. If a second slicer
     ever ships bundles for the same (folder, filament_name), KNOWN_ORIGINAL_BUNDLES
     will need a slicer dimension added."""

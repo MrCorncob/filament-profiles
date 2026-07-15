@@ -8,7 +8,7 @@ A `.bbsflmt` file is a standard zip archive produced by Bambu Studio's filament 
 <bundle>.bbsflmt
 ├── bundle_structure.json
 └── <Vendor>/
-    └── <filament name> @<printer model> 0.4 nozzle.json   (one per compatible printer)
+    └── <filament name> @<printer model> <nozzle size> nozzle.json   (one per compatible printer)
 ```
 
 The internal `<Vendor>/` folder name matches the bundle's `filament_vendor` value (`TINMORRY` for every bundle in this repo today) -- it's independent of this repo's own on-disk `<Vendor>/<Printer>/` folder layout, which just happens to reuse the same vendor name.
@@ -29,48 +29,70 @@ Each per-printer profile JSON follows Bambu Studio's standard filament settings 
 
 | Folder | File | Filament | Type | Compatible printer | Studio version | Bundle id |
 |---|---|---|---|---|---|---|
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PC GF.bbsflmt* | TINMORRY PC GF | PC | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PC GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PET CF GF.bbsflmt* | TINMORRY PET CF GF | PET-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PET CF.bbsflmt* | TINMORRY PET CF | PET-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG CF GF.bbsflmt* | TINMORRY PETG CF GF | PETG-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG CF PP.bbsflmt* | TINMORRY PETG CF PP | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF PP_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG CF.bbsflmt* | TINMORRY PETG CF | PETG-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG GF.bbsflmt* | TINMORRY PETG GF | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG Matte.bbsflmt* | TINMORRY PETG Matte | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Matte_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PLA CF.bbsflmt* | TINMORRY PLA CF | PLA-CF | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY TPU 95a.bbsflmt* | TINMORRY TPU 95a | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU 95a_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1 | TINMORRY TPU.bbsflmt* | TINMORRY TPU | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PET CF GF.bbsflmt* | TINMORRY PET CF GF | PET-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PET CF.bbsflmt* | TINMORRY PET CF | PET-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG CF GF.bbsflmt* | TINMORRY PETG CF GF | PETG-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG CF PP.bbsflmt* | TINMORRY PETG CF PP | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF PP_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG CF.bbsflmt* | TINMORRY PETG CF | PETG-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG GF.bbsflmt* | TINMORRY PETG GF | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG GF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG Matte.bbsflmt | TINMORRY PETG Matte | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 80099216_TINMORRY PETG Matte_1780301588 |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PLA CF.bbsflmt* | TINMORRY PLA CF | PLA-CF | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA CF_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY TPU 95A.bbsflmt | TINMORRY TPU 95A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.07.01.51 | 3412907432_TINMORRY TPU 95A_1782271111 |
-| profiles/BambuStudio/TINMORRY/A1mini | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG Matte.bbsflmt* | TINMORRY PETG Matte | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.2mm | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PC GF.bbsflmt* | TINMORRY PC GF | PC | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PC GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PET CF GF.bbsflmt* | TINMORRY PET CF GF | PET-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PET CF.bbsflmt* | TINMORRY PET CF | PET-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG CF GF.bbsflmt* | TINMORRY PETG CF GF | PETG-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG CF PP.bbsflmt* | TINMORRY PETG CF PP | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF PP_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG CF.bbsflmt* | TINMORRY PETG CF | PETG-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG GF.bbsflmt* | TINMORRY PETG GF | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG Matte.bbsflmt* | TINMORRY PETG Matte | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PLA CF.bbsflmt* | TINMORRY PLA CF | PLA-CF | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY TPU 95a.bbsflmt* | TINMORRY TPU 95a | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU 95a_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1/0.4mm | TINMORRY TPU.bbsflmt* | TINMORRY TPU | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG Matte.bbsflmt* | TINMORRY PETG Matte | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 mini 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 mini 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 mini 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 mini 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.2mm | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 mini 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PET CF GF.bbsflmt* | TINMORRY PET CF GF | PET-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PET CF.bbsflmt* | TINMORRY PET CF | PET-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PET CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG CF GF.bbsflmt* | TINMORRY PETG CF GF | PETG-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG CF PP.bbsflmt* | TINMORRY PETG CF PP | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF PP_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG CF.bbsflmt* | TINMORRY PETG CF | PETG-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG GF.bbsflmt* | TINMORRY PETG GF | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG Matte.bbsflmt | TINMORRY PETG Matte | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 80099216_TINMORRY PETG Matte_1780301588 |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PLA CF.bbsflmt* | TINMORRY PLA CF | PLA-CF | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA CF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PLA Matte.bbsflmt* | TINMORRY PLA Matte | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY PLA.bbsflmt* | TINMORRY PLA | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY TPU 95A.bbsflmt | TINMORRY TPU 95A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.07.01.51 | 3412907432_TINMORRY TPU 95A_1782271111 |
+| profiles/BambuStudio/TINMORRY/A1mini/0.4mm | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
 | profiles/BambuStudio/TINMORRY/A2L | TINMORRY PET CF GF.bbsflmt* | TINMORRY PET CF GF | PET-CF | Bambu Lab A2L 0.4 nozzle | 02.07.01.51 | 3412907432_TINMORRY PET CF GF_&lt;generated&gt; |
 | profiles/BambuStudio/TINMORRY/A2L | TINMORRY PET CF.bbsflmt* | TINMORRY PET CF | PET-CF | Bambu Lab A2L 0.4 nozzle | 02.07.01.51 | 3412907432_TINMORRY PET CF_&lt;generated&gt; |
 | profiles/BambuStudio/TINMORRY/A2L | TINMORRY PETG CF GF.bbsflmt* | TINMORRY PETG CF GF | PETG-CF | Bambu Lab A2L 0.4 nozzle | 02.07.01.51 | 3412907432_TINMORRY PETG CF GF_&lt;generated&gt; |
@@ -211,6 +233,18 @@ Each per-printer profile JSON follows Bambu Studio's standard filament settings 
 | profiles/BambuStudio/TINMORRY/P2S | TINMORRY PP-CF `.bbsflmt | TINMORRY PP-CF ` | PP-CF | Bambu Lab P2S 0.4 nozzle | 02.06.00.50 | 80099216_TINMORRY PP-CF `_1780312363 |
 | profiles/BambuStudio/TINMORRY/P2S | TINMORRY TPU 95A.bbsflmt | TINMORRY TPU 95A | TPU | Bambu Lab P2S 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY TPU 95A_1780368775 |
 | profiles/BambuStudio/TINMORRY/P2S | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab P2S 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY ABS Pro.bbsflmt* | TINMORRY ABS Pro | ABS | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY ABS Pro_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY ASA basic.bbsflmt* | TINMORRY ASA basic | ASA | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY ASA basic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG ECO.bbsflmt* | TINMORRY PETG ECO | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG ECO_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG Galaxy.bbsflmt* | TINMORRY PETG Galaxy | PETG | Bambu Lab X2D 0.2 nozzle | 02.07.01.51 | 3412907432_TINMORRY PETG Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG HS.bbsflmt* | TINMORRY PETG HS | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG HS_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG Marble.bbsflmt* | TINMORRY PETG Marble | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.01.50 | 3412907432_TINMORRY PETG Marble_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG Matte.bbsflmt* | TINMORRY PETG Matte | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Matte_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG Metallic.bbsflmt* | TINMORRY PETG Metallic | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.01.50 | 3412907432_TINMORRY PETG Metallic_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PETG Sparkly.bbsflmt* | TINMORRY PETG Sparkly | PETG | Bambu Lab X2D 0.2 nozzle | 02.06.00.50 | 3412907432_TINMORRY PETG Sparkly_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PLA Galaxy.bbsflmt* | TINMORRY PLA Galaxy | PLA | Bambu Lab X2D 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Galaxy_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PLA Silk.bbsflmt* | TINMORRY PLA Silk | PLA | Bambu Lab X2D 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA Silk_&lt;generated&gt; |
+| profiles/BambuStudio/TINMORRY/X2D/0.2mm | TINMORRY PLA matte.bbsflmt* | TINMORRY PLA matte | PLA | Bambu Lab X2D 0.2 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA matte_&lt;generated&gt; |
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY ABS Pro.bbsflmt | TINMORRY ABS Pro | ABS | Bambu Lab X2D 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY ABS Pro_1777370656 |
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY ASA CF.bbsflmt* | TINMORRY ASA CF | ASA-CF | Bambu Lab X2D 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY ASA CF_&lt;generated&gt; |
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY ASA basic.bbsflmt | TINMORRY ASA basic | ASA | Bambu Lab X2D 0.4 nozzle | 02.06.00.50 | 3412907432_TINMORRY ASA basic_1777370656 |
@@ -233,80 +267,6 @@ Each per-printer profile JSON follows Bambu Studio's standard filament settings 
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY PLA matte.bbsflmt | TINMORRY PLA matte | PLA | Bambu Lab X2D 0.4 nozzle | 02.07.00.50 | 3412907432_TINMORRY PLA matte_1779247765 |
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY TPU 95A.bbsflmt | TINMORRY TPU 95A | TPU | Bambu Lab P2S 0.4 nozzle + Bambu Lab X2D 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU 95A_1778039341 |
 | profiles/BambuStudio/TINMORRY/X2D/0.4mm | TINMORRY TPU GF.bbsflmt* | TINMORRY TPU GF | TPU | Bambu Lab X2D 0.4 nozzle | 02.06.01.50 | 3412907432_TINMORRY TPU GF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PEBA 85A.bbsflmt* | eSUN PEBA 85A | PEBA | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 85A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PEBA 90A.bbsflmt* | eSUN PEBA 90A | PEBA | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 90A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PEBA LW.bbsflmt* | eSUN PEBA LW | PEBA | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PEBA.bbsflmt* | eSUN PEBA | PEBA | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PET CF.bbsflmt* | eSUN PET CF | PET-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PET CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG Basic.bbsflmt* | eSUN PETG Basic | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Basic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG CF.bbsflmt* | eSUN PETG CF | PETG-CF | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG ESD.bbsflmt* | eSUN PETG ESD | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG ESD_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG HS.bbsflmt* | eSUN PETG HS | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG HS_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG Luminous.bbsflmt* | eSUN PETG Luminous | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Luminous_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG Matte.bbsflmt* | eSUN PETG Matte | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Matte_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PETG.bbsflmt* | eSUN PETG | PETG | Bambu Lab A1 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Basic.bbsflmt* | eSUN PLA Basic | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Basic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA CF.bbsflmt* | eSUN PLA CF | PLA-CF | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Clear.bbsflmt* | eSUN PLA Clear | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Clear_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA HS.bbsflmt* | eSUN PLA HS | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA HS_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA LW.bbsflmt* | eSUN PLA LW | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Lite.bbsflmt* | eSUN PLA Lite | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Lite_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Luminous.bbsflmt* | eSUN PLA Luminous | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Luminous_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Magic.bbsflmt* | eSUN PLA Magic | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Magic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Marble.bbsflmt* | eSUN PLA Marble | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Marble_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Matte.bbsflmt* | eSUN PLA Matte | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Matte_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Metal.bbsflmt* | eSUN PLA Metal | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Metal_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Rock UV.bbsflmt* | eSUN PLA Rock UV | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Rock UV_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA ST.bbsflmt* | eSUN PLA ST | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA ST_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Silk.bbsflmt* | eSUN PLA Silk | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Silk_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Twinkle.bbsflmt* | eSUN PLA Twinkle | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Twinkle_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA Wood.bbsflmt* | eSUN PLA Wood | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Wood_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN PLA.bbsflmt* | eSUN PLA | PLA | Bambu Lab A1 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPE 83A.bbsflmt* | eSUN TPE 83A | TPE | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPE 83A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU 64D.bbsflmt* | eSUN TPU 64D | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 64D_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU 80A.bbsflmt* | eSUN TPU 80A | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 80A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU 85A.bbsflmt* | eSUN TPU 85A | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 85A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU 90A.bbsflmt* | eSUN TPU 90A | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 90A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU 95A.bbsflmt* | eSUN TPU 95A | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 95A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU LW.bbsflmt* | eSUN TPU LW | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1 | eSUN TPU.bbsflmt* | eSUN TPU | TPU | Bambu Lab A1 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PEBA 85A.bbsflmt* | eSUN PEBA 85A | PEBA | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 85A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PEBA 90A.bbsflmt* | eSUN PEBA 90A | PEBA | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 90A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PEBA LW.bbsflmt* | eSUN PEBA LW | PEBA | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PEBA.bbsflmt* | eSUN PEBA | PEBA | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PET CF.bbsflmt* | eSUN PET CF | PET-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PET CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG Basic.bbsflmt* | eSUN PETG Basic | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Basic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG CF.bbsflmt* | eSUN PETG CF | PETG-CF | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG ESD.bbsflmt* | eSUN PETG ESD | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG ESD_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG HS.bbsflmt* | eSUN PETG HS | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG HS_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG Luminous.bbsflmt* | eSUN PETG Luminous | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Luminous_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG Matte.bbsflmt* | eSUN PETG Matte | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG Matte_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PETG.bbsflmt* | eSUN PETG | PETG | Bambu Lab A1 mini 0.4 nozzle | 02.06.00.50 | 3412907432_eSUN PETG_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Basic.bbsflmt* | eSUN PLA Basic | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Basic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA CF.bbsflmt* | eSUN PLA CF | PLA-CF | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA CF_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Clear.bbsflmt* | eSUN PLA Clear | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Clear_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA HS.bbsflmt* | eSUN PLA HS | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA HS_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA LW.bbsflmt* | eSUN PLA LW | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Lite.bbsflmt* | eSUN PLA Lite | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Lite_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Luminous.bbsflmt* | eSUN PLA Luminous | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Luminous_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Magic.bbsflmt* | eSUN PLA Magic | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Magic_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Marble.bbsflmt* | eSUN PLA Marble | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Marble_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Matte.bbsflmt* | eSUN PLA Matte | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Matte_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Metal.bbsflmt* | eSUN PLA Metal | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Metal_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Rock UV.bbsflmt* | eSUN PLA Rock UV | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Rock UV_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA ST.bbsflmt* | eSUN PLA ST | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA ST_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Silk.bbsflmt* | eSUN PLA Silk | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Silk_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Twinkle.bbsflmt* | eSUN PLA Twinkle | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Twinkle_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA Wood.bbsflmt* | eSUN PLA Wood | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA Wood_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN PLA.bbsflmt* | eSUN PLA | PLA | Bambu Lab A1 mini 0.4 nozzle | 02.07.00.50 | 3412907432_eSUN PLA_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPE 83A.bbsflmt* | eSUN TPE 83A | TPE | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPE 83A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU 64D.bbsflmt* | eSUN TPU 64D | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 64D_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU 80A.bbsflmt* | eSUN TPU 80A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 80A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU 85A.bbsflmt* | eSUN TPU 85A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 85A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU 90A.bbsflmt* | eSUN TPU 90A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 90A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU 95A.bbsflmt* | eSUN TPU 95A | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU 95A_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU LW.bbsflmt* | eSUN TPU LW | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU LW_&lt;generated&gt; |
-| profiles/BambuStudio/eSUN/A1mini | eSUN TPU.bbsflmt* | eSUN TPU | TPU | Bambu Lab A1 mini 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU_&lt;generated&gt; |
 | profiles/BambuStudio/eSUN/A2L | eSUN PEBA 85A.bbsflmt* | eSUN PEBA 85A | PEBA | Bambu Lab A2L 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 85A_&lt;generated&gt; |
 | profiles/BambuStudio/eSUN/A2L | eSUN PEBA 90A.bbsflmt* | eSUN PEBA 90A | PEBA | Bambu Lab A2L 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA 90A_&lt;generated&gt; |
 | profiles/BambuStudio/eSUN/A2L | eSUN PEBA LW.bbsflmt* | eSUN PEBA LW | PEBA | Bambu Lab A2L 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN PEBA LW_&lt;generated&gt; |
@@ -645,15 +605,16 @@ Each per-printer profile JSON follows Bambu Studio's standard filament settings 
 | profiles/BambuStudio/eSUN/X2D/0.4mm | eSUN TPU LW.bbsflmt* | eSUN TPU LW | TPU | Bambu Lab X2D 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU LW_&lt;generated&gt; |
 | profiles/BambuStudio/eSUN/X2D/0.4mm | eSUN TPU.bbsflmt* | eSUN TPU | TPU | Bambu Lab X2D 0.4 nozzle | 02.06.01.50 | 3412907432_eSUN TPU_&lt;generated&gt; |
 
-\* Not an original vendor export. Generated by `src/convert_old_repo_to_printer.py` from a filament type present in a vendor's registered delta source(s) (`reference-old-repo/`/`reference-bambuprinters/` for TINMORRY, `reference-esun/` for eSUN -- see External references) that had no bundle for that printer yet. Machine-level parameters (temps, per-extruder-variant behavior) come from the closest existing bundle for that same printer and vendor (or, failing that, a repo-wide canonical template, currently always a TINMORRY bundle since eSUN has none of its own yet to fall back to); material-specific tuning (flow ratio, plate temp, fan speed, max volumetric speed) comes from the delta source's own profile. Generation is gated by a machine-compatibility policy -- see "Machine compatibility gating" in CLAUDE.md -- so materials without real evidence of working on a given printer (e.g. PA-CF/PAHT-CF almost everywhere, or any ABS/ASA/PC on the open-frame A1 mini/A2L) are deliberately skipped rather than guessed. **PA-CF and PAHT-CF's X2D bundles in particular did not have nozzle/bed temperature overrides in their source profile**, so they inherited PETG CF's temperature range (245-260 C) rather than PA-CF/PAHT-CF's typically higher real-world requirement (~270-300 C) -- verify against TINMORRY's spec sheet before printing with these two. **Most eSUN bundles on 4-variant printers (H2D, H2S, P2S, X2D) only have real eSUN data for the "Direct Drive Standard" extruder variant** -- eSUN's own per-printer exports almost universally leave the "Direct Drive High Flow"/"Bowden Standard"/"Bowden High Flow" slots of `nozzle_temperature`/`filament_flow_ratio`/`filament_max_volumetric_speed` unspecified (`"nil"`), so those three variants inherit the donor TINMORRY bundle's own values instead of eSUN's -- cross-check against eSUN's official datasheet before printing an eSUN filament on anything but the Direct Drive Standard setup of these printers.
+\* Not an original vendor export. Most are generated by `src/convert_old_repo_to_printer.py` from a filament type present in a vendor's registered delta source(s) (`reference-old-repo/`/`reference-bambuprinters/` for TINMORRY, `reference-esun/` for eSUN -- see External references) that had no bundle for that printer yet. Machine-level parameters (temps, per-extruder-variant behavior) come from the closest existing bundle for that same printer and vendor (or, failing that, a repo-wide canonical template, currently always a TINMORRY bundle since eSUN has none of its own yet to fall back to); material-specific tuning (flow ratio, plate temp, fan speed, max volumetric speed) comes from the delta source's own profile. Generation is gated by a machine-compatibility policy -- see "Machine compatibility gating" in CLAUDE.md -- so materials without real evidence of working on a given printer (e.g. PA-CF/PAHT-CF almost everywhere, or any ABS/ASA/PC on the open-frame A1 mini/A2L) are deliberately skipped rather than guessed. **PA-CF and PAHT-CF's X2D bundles in particular did not have nozzle/bed temperature overrides in their source profile**, so they inherited PETG CF's temperature range (245-260 C) rather than PA-CF/PAHT-CF's typically higher real-world requirement (~270-300 C) -- verify against TINMORRY's spec sheet before printing with these two. **Most eSUN bundles on 4-variant printers (H2D, H2S, P2S, X2D) only have real eSUN data for the "Direct Drive Standard" extruder variant** -- eSUN's own per-printer exports almost universally leave the "Direct Drive High Flow"/"Bowden Standard"/"Bowden High Flow" slots of `nozzle_temperature`/`filament_flow_ratio`/`filament_max_volumetric_speed` unspecified (`"nil"`), so those three variants inherit the donor TINMORRY bundle's own values instead of eSUN's -- cross-check against eSUN's official datasheet before printing an eSUN filament on anything but the Direct Drive Standard setup of these printers. **The `X2D/0.2mm`, `A1/0.2mm`, and `A1mini/0.2mm` bundles** are a different kind of derived bundle, generated by `src/derive_nozzle_variants.py` from the matching 0.4mm TINMORRY bundle rather than from a delta source: every field is identical to the 0.4mm original except `filament_max_volumetric_speed` (replaced with the absolute 0.2mm-nozzle cap for that material, read off Bambu Studio's own official system profiles) and `compatible_printers`/`name`. Only plain PLA/PETG/ABS/ASA/PC bundles were derived -- CF/GF-reinforced, TPU, and PA/nylon bundles were skipped, since Bambu's own system-profile library never ships a 0.2mm-nozzle preset for those materials on any printer (see CLAUDE.md's "0.2mm-nozzle derivation" section).
 
-Generated by extracting and inspecting each `.bbsflmt` archive's `bundle_structure.json` and per-printer profile JSON in this repository (2026-07-02), updated after generalizing the conversion tooling to all printers (2026-07-02) and again after adding eSUN as a second vendor (2026-07-10).
+Generated by extracting and inspecting each `.bbsflmt` archive's `bundle_structure.json` and per-printer profile JSON in this repository (2026-07-02), updated after generalizing the conversion tooling to all printers (2026-07-02), again after adding eSUN as a second vendor (2026-07-10), and again after deriving 0.2mm-nozzle bundles for X2D/A1/A1 mini (2026-07-15).
 
 ## Scripts
 
 - `src/_filament_lib.py` — shared library: the printer registry, machine-compatibility tiers/gating policy, delta-source parsing (`old_repo_entries`/`bambuprinters_entries` for TINMORRY, `esun_entries` for eSUN, combined per-vendor by `delta_entries`), template selection, bundle-merging logic, the custom-override mechanism (`load_custom_override`), and the inventory helpers (`inventory_rows`, `is_original_bundle`) used by the scripts below.
 - `src/find_missing_filaments.py [--printer NAME] [--vendor {TINMORRY,eSUN}]` — compares filament types in a vendor's registered delta source(s) against what's already bundled for each printer folder and reports gaps, labeled ALLOW or SKIP per the compatibility policy.
 - `src/convert_old_repo_to_printer.py [--printer NAME] [--dry-run] [--vendor {TINMORRY,eSUN}]` — generates new `.bbsflmt` bundles for the ALLOW-labeled gaps. Never modifies an existing bundle, and every generated bundle's machine template traces back to a real, originally-existing bundle for that vendor (never to another bundle generated earlier in the same run). Reads the target vendor's delta source(s), tracked in this repo (see External references to refetch a newer snapshot). Applies any matching `src/custom_overrides/<vendor>/<printer>/<filament>.json` as the final step.
+- `src/derive_nozzle_variants.py [--printer {X2D,A1,A1mini}] [--dry-run]` — derives 0.2mm-nozzle `.bbsflmt` bundles from the matching 0.4mm TINMORRY bundle on X2D, A1, and A1 mini, gated to materials Bambu's own system profiles ship a 0.2mm preset for (see "0.2mm-nozzle derivation" in CLAUDE.md). Never modifies an existing bundle.
 - `src/gen_inventory_table.py [--check]` — regenerates the "Full profile inventory" table above from the bundles actually on disk. Run after adding/removing any bundle.
 - `src/gen_readme_tables.py [--write] [--check]` — regenerates the collapsible, per-slicer, per-vendor, per-printer "Available profiles" tables (filament, Original/Derived, raw-download link) in `README.md`, `README.vi.md`, and `README.zh.md` between their `<!-- BEGIN/END GENERATED PROFILE TABLES -->` markers. Run with `--write` after adding/removing any bundle, alongside `gen_inventory_table.py`.
 - `src/unzip_wrapper_zips.py [--dry-run] [--delete-zip]` — finds plain `.zip` files that wrap a `.bbsflmt` bundle inside a subfolder (rather than being a bundle themselves) and extracts the inner `.bbsflmt` directly into the printer folder.
