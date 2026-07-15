@@ -40,7 +40,7 @@ src/       Python toolchain that derives new bundles (see CLAUDE.md)
 
 ## Available profiles
 
-Click a printer below to see its filaments. Each row's **Download** link goes straight to the `.bbsflmt` file — right-click it and choose "Save Link As" (no need to clone this repo or browse GitHub).
+Click a printer below to see its filaments. Each row's **Download** link goes straight to the `.bbsflmt` file — right-click it and choose "Save Link As" (no need to clone this repo or browse GitHub). Want every printer for a brand in one go? The [Releases page](https://github.com/MrCorncob/filament-profiles/releases) has a packed zip per vendor (e.g. `BambuStudio-TINMORRY.zip`) with every bundle inside, sorted into printer/nozzle folders.
 
 - **Original** = a real export straight from the vendor (TINMORRY or eSUN), unmodified.
 - **Derived** = not a direct vendor export; generated from the vendor's own smaller per-printer delta data by the scripts in this repo (see `CLAUDE.md`). Read the **⚠️ Caution** section above before using a Derived profile, especially PA-CF/PAHT-CF on X2D and any eSUN profile on a Bowden or High-Flow nozzle variant of H2D/H2S/P2S/X2D.

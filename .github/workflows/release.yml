@@ -1,0 +1,50 @@
+name: Release
+
+# Packs every vendor's .bbsflmt bundles into one zip per (slicer, vendor)
+# pair (see src/build_release_zips.py) and attaches them to a GitHub
+# Release, as an alternative to downloading individual bundles via
+# README.md's raw-download links.
+#
+# Triggers on pushing a version tag (e.g. v1.0.0). Can also be run
+# manually against an existing tag to rebuild/republish its assets
+# (e.g. after a profile fix without cutting a new tag).
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to (re-)publish release assets for"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.tag || github.ref_name }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Build packed vendor zips
+        run: python3 src/build_release_zips.py
+
+      - name: Publish release assets
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="${{ inputs.tag || github.ref_name }}"
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$TAG" dist/*.zip --repo "$GITHUB_REPOSITORY" --clobber
+          else
+            gh release create "$TAG" dist/*.zip --repo "$GITHUB_REPOSITORY" --title "$TAG" --generate-notes
+          fi

@@ -40,7 +40,7 @@ src/       生成新 bundle 的 Python 工具链（详见 CLAUDE.md）
 
 ## 可用配置文件
 
-点击下方打印机型号查看对应的耗材列表。每一行的 **下载** 链接直接指向 `.bbsflmt` 文件 —— 右键点击并选择"链接另存为"即可下载（无需克隆本仓库或在 GitHub 上浏览文件）。
+点击下方打印机型号查看对应的耗材列表。每一行的 **下载** 链接直接指向 `.bbsflmt` 文件 —— 右键点击并选择"链接另存为"即可下载（无需克隆本仓库或在 GitHub 上浏览文件）。想一次性下载某个品牌的全部打印机配置？[Releases 页面](https://github.com/MrCorncob/filament-profiles/releases) 提供按品牌打包的 zip 文件（例如 `BambuStudio-TINMORRY.zip`），内部已按打印机/喷嘴文件夹分类。
 
 - **原版** = 品牌（TINMORRY 或 eSUN）官方导出的真实文件，未经修改。
 - **衍生** = 并非品牌直接导出；由本仓库的脚本根据该品牌较小的按打印机分类 delta 数据生成（详见 `CLAUDE.md`）。使用"衍生"配置前请阅读上方的 **⚠️ 注意事项**，尤其是 X2D 上的 PA-CF/PAHT-CF，以及 H2D/H2S/P2S/X2D 上 Bowden 或 High-Flow 变体的任何 eSUN 配置。

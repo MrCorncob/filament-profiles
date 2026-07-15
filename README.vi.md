@@ -40,7 +40,7 @@ src/       Bộ công cụ Python tạo ra các bundle mới (xem CLAUDE.md)
 
 ## Danh sách cấu hình hiện có
 
-Bấm vào tên máy in bên dưới để xem danh sách sợi in tương ứng. Mỗi dòng có link **Tải xuống** dẫn thẳng đến file `.bbsflmt` — chuột phải vào link rồi chọn "Save Link As" để tải về (không cần clone repo hay vào GitHub duyệt file).
+Bấm vào tên máy in bên dưới để xem danh sách sợi in tương ứng. Mỗi dòng có link **Tải xuống** dẫn thẳng đến file `.bbsflmt` — chuột phải vào link rồi chọn "Save Link As" để tải về (không cần clone repo hay vào GitHub duyệt file). Muốn tải toàn bộ máy in của một hãng cùng lúc? Trang [Releases](https://github.com/MrCorncob/filament-profiles/releases) có sẵn file zip đóng gói theo từng hãng (ví dụ `BambuStudio-TINMORRY.zip`), bên trong đã sắp xếp theo thư mục máy in/đầu phun.
 
 - **Nguyên bản** = file xuất thật, chưa chỉnh sửa, trực tiếp từ hãng (TINMORRY hoặc eSUN).
 - **Được tạo** = không phải file xuất trực tiếp từ hãng; được tạo ra từ dữ liệu delta nhỏ theo từng máy in của hãng bằng các script trong repo này (xem `CLAUDE.md`). Hãy đọc mục **⚠️ Lưu ý** ở trên trước khi dùng cấu hình loại "Được tạo", đặc biệt là PA-CF/PAHT-CF trên X2D và bất kỳ cấu hình eSUN nào trên biến thể Bowden hoặc High-Flow của H2D/H2S/P2S/X2D.
