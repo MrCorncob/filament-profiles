@@ -1,0 +1,92 @@
+{
+    "_comment": [
+        "Hand-authored from the printed BING3D PETG-LS spool label -- BING3D",
+        "(bing-3d.com) publishes no Bambu Studio export and no downloadable TDS,",
+        "so unlike reference-esun/ and reference-old-repo/ this is not a vendor",
+        "export snapshot. See CLAUDE.md 'Vendors' and REFERENCES.md 'External",
+        "references'.",
+        "",
+        "Label data (the ONLY vendor-stated numbers here):",
+        "  print (nozzle) temperature: 205-225 C",
+        "  bed temperature:            0-50 C",
+        "",
+        "Derived from that label:",
+        "  nozzle_temperature / _initial_layer = 215 (midpoint of 205-225), same",
+        "    value on every extruder variant -- the label gives one range, not a",
+        "    per-variant figure.",
+        "  nozzle_temperature_range_low/high   = 205 / 225, straight off the label.",
+        "  hot/eng/textured/supertack_plate_temp (and their _initial_layer twins)",
+        "    = 50, the top of the label's bed range. The template's PETG values",
+        "    (70-80) are above what the label allows, so they must be overridden.",
+        "  filament_tower_interface_print_temp = 215, kept in step with the nozzle",
+        "    temperature -- the PETG template's 255 exceeds the label's 225 maximum.",
+        "",
+        "Deliberately NOT set (no label or datasheet figure exists -- these stay",
+        "at the donor PETG bundle's already-validated values):",
+        "  cool_plate_temp stays 0, i.e. Bambu's Cool Plate stays marked",
+        "    incompatible. The low bed range would physically allow it, but PETG",
+        "    bonds aggressively to that plate's coating and BING3D makes no",
+        "    plate-compatibility claim; that is a materials call, not a",
+        "    temperature one.",
+        "  filament_flow_ratio, filament_max_volumetric_speed, fan/cooling,",
+        "    retraction, drying temperatures."
+    ],
+    "filament_extruder_variant": [
+        "Direct Drive Standard",
+        "Direct Drive High Flow",
+        "Bowden Standard",
+        "Bowden High Flow"
+    ],
+    "filament_settings_id": [
+        "BING3D PETG-LS Filament"
+    ],
+    "filament_tower_interface_print_temp": [
+        "215"
+    ],
+    "from": "User",
+    "inherits": "",
+    "name": "BING3D PETG-LS Filament",
+    "nozzle_temperature": [
+        "215",
+        "215",
+        "215",
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215",
+        "215",
+        "215",
+        "215"
+    ],
+    "nozzle_temperature_range_high": [
+        "225"
+    ],
+    "nozzle_temperature_range_low": [
+        "205"
+    ],
+    "eng_plate_temp": [
+        "50"
+    ],
+    "eng_plate_temp_initial_layer": [
+        "50"
+    ],
+    "hot_plate_temp": [
+        "50"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "50"
+    ],
+    "supertack_plate_temp": [
+        "50"
+    ],
+    "supertack_plate_temp_initial_layer": [
+        "50"
+    ],
+    "textured_plate_temp": [
+        "50"
+    ],
+    "textured_plate_temp_initial_layer": [
+        "50"
+    ],
+    "version": "2.5.0.18"
+}

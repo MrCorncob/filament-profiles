@@ -100,7 +100,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--printer", choices=sorted(PRINTERS), help="limit to one printer")
     parser.add_argument("--dry-run", action="store_true", help="preview without writing files")
-    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN"], help="delta source to generate bundles from")
+    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN", "BING3D"], help="delta source to generate bundles from")
     args = parser.parse_args()
 
     for name in ([args.printer] if args.printer else sorted(PRINTERS)):

@@ -43,7 +43,7 @@ def report_printer(printer_name: str, vendor: str):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--printer", choices=sorted(PRINTERS), help="limit to one printer")
-    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN"], help="delta source to report gaps for")
+    parser.add_argument("--vendor", default=VENDOR, choices=["TINMORRY", "eSUN", "BING3D"], help="delta source to report gaps for")
     args = parser.parse_args()
 
     for name in ([args.printer] if args.printer else sorted(PRINTERS)):

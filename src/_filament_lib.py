@@ -46,10 +46,10 @@ PROFILES_DIR = PROFILES_ROOT / SLICER
 
 # Every vendor this repo knows about, in display order. Bundles live under
 # profiles/<Slicer>/<Vendor>/<Printer>/*.bbsflmt (see PRINTERS below for the
-# printer half). eSUN and ELEGOO are registered here as scaffolding only --
-# no delta source data exists for them yet, so no bundles are generated and
-# their folders won't exist on disk until real source data does.
-VENDORS = ["TINMORRY", "eSUN", "ELEGOO"]
+# printer half). ELEGOO is registered here as scaffolding only -- no delta
+# source data exists for it yet, so no bundles are generated and its folder
+# won't exist on disk until real source data does.
+VENDORS = ["TINMORRY", "eSUN", "BING3D", "ELEGOO"]
 
 # The vendor the old-repo/BambuPrinters delta-generation pipeline below
 # (find_gaps, build_bundle, etc.) targets. This pipeline is TINMORRY-only:
@@ -190,7 +190,7 @@ PRINTER_TOKENS = {
     "a1", "a1m", "a1mini", "a2l", "p1p", "p1s", "p2s", "x1", "x1c", "x1e",
     "h2c", "h2d", "h2s", "x2d", "bbl", "bambu", "tinmorry", "nozzle", "0.4",
 }
-NOISE_WORDS = {"generic", "bambu", "esun"}
+NOISE_WORDS = {"generic", "bambu", "esun", "bing3d"}
 
 
 # A handful of old-repo/BambuPrinters filenames glue the material and grade
@@ -266,18 +266,19 @@ ESUN_PRINTER_FOLDERS = {
 ESUN_TOKEN_FIXES = {"twinking": "twinkle", "twinkling": "twinkle"}
 
 
-def esun_base_material(tokens: set):
-    """Classify an eSUN filename's token set into a canonical filament_type.
+def filename_base_material(tokens: set):
+    """Classify a delta-source FILENAME's token set into a canonical filament_type.
 
-    Unlike old_repo_entries()/bambuprinters_entries(), this reads the
-    FILENAME rather than "inherits" -- eSUN's deltas often inherit from a
-    Bambu baseline profile (e.g. "Bambu PETG Basic") even for reinforced or
-    specialty variants like PETG-CF, so trusting inherits the way
-    old_repo_entries() does would misclassify them as their un-reinforced
-    base type. Reinforcement tokens (cf/gf) mint a distinct filament_type
-    (matching this repo's existing PLA-CF/PETG-CF/PA-CF convention);
-    everything else (Basic, Matte, HS, ESD, Luminous, ...) stays a display
-    descriptor on the base type, not a separate filament_type.
+    Used by esun_entries() and bing3d_entries(). Unlike old_repo_entries()/
+    bambuprinters_entries(), this reads the FILENAME rather than "inherits"
+    -- eSUN's deltas often inherit from a Bambu baseline profile (e.g.
+    "Bambu PETG Basic") even for reinforced or specialty variants like
+    PETG-CF, so trusting inherits the way old_repo_entries() does would
+    misclassify them as their un-reinforced base type. Reinforcement tokens
+    (cf/gf) mint a distinct filament_type (matching this repo's existing
+    PLA-CF/PETG-CF/PA-CF convention); everything else (Basic, Matte, HS,
+    ESD, Luminous, LS, ...) stays a display descriptor on the base type,
+    not a separate filament_type.
     """
     def has(*want):
         return all(t in tokens for t in want)
@@ -347,7 +348,7 @@ def esun_entries():
                 text = text.replace(glued, fixed)
             tokens = {t for t in re.findall(r"[a-z0-9]+", text) if t not in NOISE_WORDS}
 
-            base_material = esun_base_material(tokens)
+            base_material = filename_base_material(tokens)
             if base_material is None:
                 continue
             descriptor = tokens - normalize(base_material)
@@ -361,6 +362,68 @@ def esun_entries():
                 "base_material": base_material,
                 "descriptor": descriptor,
             }
+
+
+# ---------------------------------------------------------------------------
+# BING3D delta source (reference-bing3d/)
+#
+# UNLIKE every other source in this file, this one is NOT a snapshot of a
+# vendor-published export -- BING3D (Chinese brand name 必应, bing-3d.com)
+# publishes no Bambu Studio profiles and no downloadable TDS, so these are
+# hand-authored from the printed spool label and committed here, in the same
+# shape as reference-esun/'s files, so the normal gap/convert pipeline can
+# consume them. Each file therefore overrides only the fields the label
+# actually gives a number for, and records its own provenance in a
+# "_comment" key (stripped by SKIP_KEYS, so it never reaches the generated
+# profile). Everything else stays at the template bundle's already-validated
+# value, exactly as for a sparse eSUN delta.
+#
+# The directory is FLAT, not per-printer like reference-esun/: label data is
+# printer-agnostic, so one file serves every printer rather than nine
+# identical copies claiming per-machine evidence that doesn't exist. An
+# "@BBL <code>"-tagged "inherits" is still parsed if a future file has one,
+# so genuinely printer-specific BING3D data can be dropped in later without
+# changing this function.
+# ---------------------------------------------------------------------------
+
+BING3D_DIR = REPO_ROOT / "reference-bing3d"
+
+
+def bing3d_entries():
+    """Yield dicts describing every reference-bing3d/*.json delta, normalized
+    to the same shape as old_repo_entries()/esun_entries() so find_gaps() can
+    draw on it too.
+
+    Classifies by FILENAME (via filename_base_material) for the same reason
+    esun_entries() does: BING3D's grade suffixes (e.g. "-LS") are product
+    descriptors layered on a plain base polymer, and the profile these
+    deltas are meant to sit on top of is a plain "PETG" one.
+    """
+    if not BING3D_DIR.exists():
+        return
+    for path in sorted(BING3D_DIR.glob("*.json")):
+        data = json.loads(path.read_text())
+        inherits = data.get("inherits", "") or ""
+        m = re.search(r"@BBL\s+([A-Za-z0-9]+)", inherits)
+        bbl_code = m.group(1).lower() if m else None
+
+        material_part = re.sub(r"(?i)^.*bing3d", "", path.stem)
+        material_part = re.sub(r"(?i)filament\s*$", "", material_part).strip()
+        tokens = {t for t in re.findall(r"[a-z0-9]+", material_part.lower()) if t not in NOISE_WORDS}
+
+        base_material = filename_base_material(tokens)
+        if base_material is None:
+            continue
+
+        yield {
+            "path": path,
+            "file": path.name,
+            "source_dir": "reference-bing3d",
+            "inherits": inherits,
+            "bbl_code": bbl_code,
+            "base_material": base_material,
+            "descriptor": tokens - normalize(base_material),
+        }
 
 
 def old_repo_entries():
@@ -456,13 +519,16 @@ def delta_entries(vendor: str = VENDOR):
     """Yield entries from every registered delta source for a vendor, in the
     common shape find_gaps() expects. TINMORRY draws on two sources
     (reference-old-repo/, reference-bambuprinters/); eSUN draws on one
-    (reference-esun/). A vendor with no registered source yields nothing.
+    (reference-esun/), as does BING3D (reference-bing3d/). A vendor with no
+    registered source yields nothing.
     """
     if vendor == "TINMORRY":
         yield from old_repo_entries()
         yield from bambuprinters_entries()
     elif vendor == "eSUN":
         yield from esun_entries()
+    elif vendor == "BING3D":
+        yield from bing3d_entries()
 
 
 def bundle_labels(printer_dir: str):
@@ -586,6 +652,7 @@ def display_material(base_material: str) -> str:
 DESCRIPTOR_CASE_OVERRIDES = {
     "cf": "CF", "gf": "GF", "hs": "HS", "eco": "ECO", "pp": "PP", "pc": "PC",
     "esd": "ESD", "fr": "FR", "ht": "HT", "lw": "LW", "st": "ST", "uv": "UV",
+    "ls": "LS",
 }
 
 
@@ -631,7 +698,7 @@ FALLBACK_TEMPLATE = {
     "PETG": ("TINMORRY/X2D/0.4mm", "TINMORRY PETG ECO"),
     "TPU": ("TINMORRY/X2D/0.4mm", "TINMORRY TPU 95A"),
     # No TINMORRY bundle exists for these -- point at the closest analog in
-    # the same POLYMER_FAMILY (see esun_base_material()'s docstring for why
+    # the same POLYMER_FAMILY (see filename_base_material()'s docstring for why
     # these types exist at all).
     "PA": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
     "PA6-CF": ("TINMORRY/X2D/0.4mm", "TINMORRY PA-CF"),
@@ -691,6 +758,10 @@ def choose_template(printer_dir: str, base_material: str, existing_labels=None):
 
 
 SKIP_KEYS = {
+    # "_comment" is not a Bambu Studio setting -- it's this repo's own
+    # convention for recording provenance inside a hand-authored delta (see
+    # reference-bing3d/), and must never be carried into a generated profile.
+    "_comment",
     "name", "filament_settings_id", "from", "inherits", "version",
     "filament_extruder_variant", "compatible_printers",
     "compatible_printers_condition", "compatible_prints",

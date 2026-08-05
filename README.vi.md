@@ -4,13 +4,14 @@
 
 Được fork từ [TINMORRY/Tinmorry-Bambu_BambuStudio](https://github.com/TINMORRY/Tinmorry-Bambu_BambuStudio).
 
-Bộ cấu hình sợi in (filament) tùy chỉnh, sắp xếp theo phần mềm cắt lớp (slicer), rồi đến hãng sợi in, rồi đến từng dòng máy in Bambu Lab. Hiện tại có bundle `.bbsflmt` của **Bambu Studio** cho sợi in **TINMORRY** và **eSUN**; cấu trúc repo được thiết kế để sau này bổ sung thêm các slicer khác (ví dụ OrcaSlicer) và hãng sợi khác (ví dụ ELEGOO) mà không cần tổ chức lại lần nữa.
+Bộ cấu hình sợi in (filament) tùy chỉnh, sắp xếp theo phần mềm cắt lớp (slicer), rồi đến hãng sợi in, rồi đến từng dòng máy in Bambu Lab. Hiện tại có bundle `.bbsflmt` của **Bambu Studio** cho sợi in **TINMORRY**, **eSUN** và **BING3D**; cấu trúc repo được thiết kế để sau này bổ sung thêm các slicer khác (ví dụ OrcaSlicer) và hãng sợi khác (ví dụ ELEGOO) mà không cần tổ chức lại lần nữa.
 
 ## ⚠️ Lưu ý — đọc trước khi tải về và sử dụng
 
-- Các cấu hình có nhãn **Được tạo** trong bảng bên dưới **không phải là file xuất gốc từ hãng**. Chúng được tạo ra bằng cách kết hợp dữ liệu delta nhỏ theo từng máy in của hãng với thông số máy in lấy từ một bundle khác (xem `CLAUDE.md` / `REFERENCES.md`), và **chưa được TINMORRY hoặc eSUN in thử kiểm chứng**.
+- Các cấu hình có nhãn **Được tạo** trong bảng bên dưới **không phải là file xuất gốc từ hãng**. Chúng được tạo ra bằng cách kết hợp dữ liệu delta nhỏ theo từng máy in của hãng với thông số máy in lấy từ một bundle khác (xem `CLAUDE.md` / `REFERENCES.md`), và **chưa được TINMORRY, eSUN hay BING3D in thử kiểm chứng**.
 - Trước khi in với bất kỳ cấu hình **Được tạo** nào, hãy đối chiếu lại nhiệt độ đầu phun (nozzle), bàn in (bed/plate) và buồng in (chamber) với thông tin thực tế trên nhãn cuộn sợi hoặc datasheet của nhà sản xuất — **đặc biệt là PA-CF và PAHT-CF trên X2D**, vì hai cấu hình này đang dùng tạm khoảng nhiệt độ của PETG CF thay vì khoảng nhiệt độ riêng của chúng (thường thấp hơn đáng kể so với mức PA-CF/PAHT-CF thực sự cần).
 - **Hầu hết cấu hình eSUN trên H2D, H2S, P2S và X2D chỉ có dữ liệu thật của eSUN cho biến thể đầu đùn "Direct Drive Standard".** Dữ liệu xuất theo từng máy in của eSUN gần như luôn để trống nhiệt độ đầu phun, tỷ lệ đùn (flow ratio) và tốc độ thể tích tối đa cho ba biến thể còn lại ("Direct Drive High Flow"/"Bowden Standard"/"Bowden High Flow"), nên ba biến thể đó âm thầm kế thừa giá trị từ bundle TINMORRY dùng làm mẫu thay vì giá trị riêng của eSUN — hãy đối chiếu với datasheet chính thức của eSUN trước khi in cấu hình eSUN trên bất kỳ cấu hình nào khác ngoài Direct Drive Standard của bốn máy in này.
+- **Các cấu hình BING3D PETG LS được xây dựng từ nhãn cuộn sợi, không phải từ datasheet.** BING3D không phát hành file xuất Bambu Studio cũng như datasheet sản phẩm, nên chỉ những nhiệt độ in trên nhãn cuộn (đầu phun 205–225 °C, bàn in 0–50 °C) là dữ liệu riêng của BING3D — tỷ lệ đùn, tốc độ thể tích tối đa, làm mát và rút sợi đều mượn từ một bundle PETG của TINMORRY. Lưu ý đây là loại PETG *nhiệt độ thấp*: 215 °C đầu phun và 50 °C bàn in thấp hơn nhiều so với cấu hình PETG thông thường, và dùng cấu hình PETG chung cho loại sợi này sẽ làm nó quá nhiệt. Hãy chạy hiệu chỉnh (calibration) lưu lượng/nhiệt độ trước khi in một sản phẩm dài.
 - Dùng đầu phun (nozzle) chống mài mòn (hardened) cho bất kỳ loại sợi có pha sợi carbon (CF) hoặc sợi thủy tinh (GF) nào (PETG-CF, PLA-CF, PET-CF, PC GF, TPU GF, PA-CF, PAHT-CF, PP-CF, PA6-CF, PA12-CF, ABS-CF, ABS-GF).
 - Nên in thử một mẫu nhỏ và theo dõi các lớp in đầu tiên trước khi in một sản phẩm hoàn chỉnh, đặc biệt với các máy in không có buồng bao kín (A1, A1 mini, A2L).
 - **Cấu hình PC GF của A1 là một trường hợp đặc biệt cần lưu ý**: bản thân Bambu Studio có cung cấp sẵn cấu hình hệ thống cho PC-GF trên máy A1 (loại máy khung hở, không có buồng bao kín), nên cấu hình này được đưa vào đây dựa trên bằng chứng trực tiếp đó — nhưng điều này không có nghĩa là ABS/ASA cũng an toàn trên A1, và repo này cố tình không tạo cấu hình ABS/ASA cho A1. Nếu in PC GF trên A1 (khung hở), hãy đảm bảo thông gió tốt và lường trước khả năng cong vênh nhiều hơn so với máy có buồng bao kín.
@@ -18,7 +19,7 @@ Bộ cấu hình sợi in (filament) tùy chỉnh, sắp xếp theo phần mềm
 
 ## Cấu trúc thư mục
 
-Dữ liệu cấu hình sợi in nằm trong `profiles/`, còn bộ công cụ tạo ra chúng nằm trong `src/`. Bên trong `profiles/`, mỗi thư mục cấp cao nhất là một slicer/định dạng xuất; bên trong đó là thư mục hãng sợi in; bên trong đó là các thư mục con tương ứng với từng dòng máy in (theo đúng giá trị trong trường `compatible_printers` của từng cấu hình). Riêng `X2D` có thêm thư mục con `0.4mm` cho đầu phun 0.4mm. `BambuStudio/TINMORRY/` và `BambuStudio/eSUN/` hiện đã có cấu hình — các thư mục slicer khác (OrcaSlicer) và hãng khác (ELEGOO) sẽ xuất hiện theo cùng cách khi có dữ liệu.
+Dữ liệu cấu hình sợi in nằm trong `profiles/`, còn bộ công cụ tạo ra chúng nằm trong `src/`. Bên trong `profiles/`, mỗi thư mục cấp cao nhất là một slicer/định dạng xuất; bên trong đó là thư mục hãng sợi in; bên trong đó là các thư mục con tương ứng với từng dòng máy in (theo đúng giá trị trong trường `compatible_printers` của từng cấu hình). Riêng `X2D` có thêm thư mục con `0.4mm` cho đầu phun 0.4mm. `BambuStudio/TINMORRY/`, `BambuStudio/eSUN/` và `BambuStudio/BING3D/` hiện đã có cấu hình — các thư mục slicer khác (OrcaSlicer) và hãng khác (ELEGOO) sẽ xuất hiện theo cùng cách khi có dữ liệu.
 
 ```
 profiles/
@@ -35,6 +36,8 @@ profiles/
       X2D/0.4mm/  Bambu Lab X2D, đầu phun 0.4mm
     eSUN/
       A1/, A1mini/, H2C/, H2D/, H2S/, P1S/, P2S/, X2D/0.4mm/  cấu trúc giống TINMORRY/
+    BING3D/
+      A1/0.4mm/, A1mini/0.4mm/, A2L/, H2C/, H2D/, H2S/, P1S/, P2S/, X2D/0.4mm/  mỗi máy một bundle PETG LS
 src/       Bộ công cụ Python tạo ra các bundle mới (xem CLAUDE.md)
 ```
 
@@ -43,7 +46,7 @@ src/       Bộ công cụ Python tạo ra các bundle mới (xem CLAUDE.md)
 Bấm vào tên máy in bên dưới để xem danh sách sợi in tương ứng. Mỗi dòng có link **Tải xuống** dẫn thẳng đến file `.bbsflmt` — chuột phải vào link rồi chọn "Save Link As" để tải về (không cần clone repo hay vào GitHub duyệt file). Muốn tải toàn bộ máy in của một hãng cùng lúc? Trang [Releases](https://github.com/MrCorncob/filament-profiles/releases) có sẵn file zip đóng gói theo từng hãng (ví dụ `BambuStudio-TINMORRY.zip`), bên trong đã sắp xếp theo thư mục máy in/đầu phun.
 
 - **Nguyên bản** = file xuất thật, chưa chỉnh sửa, trực tiếp từ hãng (TINMORRY hoặc eSUN).
-- **Được tạo** = không phải file xuất trực tiếp từ hãng; được tạo ra từ dữ liệu delta nhỏ theo từng máy in của hãng bằng các script trong repo này (xem `CLAUDE.md`). Hãy đọc mục **⚠️ Lưu ý** ở trên trước khi dùng cấu hình loại "Được tạo", đặc biệt là PA-CF/PAHT-CF trên X2D và bất kỳ cấu hình eSUN nào trên biến thể Bowden hoặc High-Flow của H2D/H2S/P2S/X2D.
+- **Được tạo** = không phải file xuất trực tiếp từ hãng; được tạo ra từ dữ liệu delta nhỏ theo từng máy in của hãng bằng các script trong repo này (xem `CLAUDE.md`) — riêng BING3D thì tạo từ nhãn cuộn sợi. Hãy đọc mục **⚠️ Lưu ý** ở trên trước khi dùng cấu hình loại "Được tạo", đặc biệt là PA-CF/PAHT-CF trên X2D, bất kỳ cấu hình eSUN nào trên biến thể Bowden hoặc High-Flow của H2D/H2S/P2S/X2D, và mọi cấu hình BING3D.
 
 Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) dùng chung một bundle duy nhất trong `profiles/BambuStudio/TINMORRY/X2D/0.4mm/`, chứa cấu hình cho cả máy P2S lẫn X2D.
 
@@ -782,6 +785,89 @@ Một số loại sợi TINMORRY (PETG GF, PETG Marble, PETG Metallic, TPU 95A) 
 
 </details>
 
+#### BING3D
+
+<details>
+<summary><strong>Bambu Lab A1 (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/A1/0.4mm/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab A1 mini (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/A1mini/0.4mm/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab A2L (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/A2L/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab H2C (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/H2C/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab H2D (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/H2D/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab H2S (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/H2S/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab P1S (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/P1S/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab P2S (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/P2S/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
+<details>
+<summary><strong>Bambu Lab X2D (1)</strong></summary>
+
+| Sợi in | Nguồn gốc | Tải xuống |
+|---|---|---|
+| BING3D PETG LS | Được tạo | [tải về](https://raw.githubusercontent.com/MrCorncob/filament-profiles/main/profiles/BambuStudio/BING3D/X2D/0.4mm/BING3D%20PETG%20LS.bbsflmt) |
+
+</details>
+
 <!-- END GENERATED PROFILE TABLES -->
 
 Xem [REFERENCES.md](REFERENCES.md) để biết đầy đủ thông tin kỹ thuật (bundle id, phiên bản Studio, chuỗi compatible-printer chính xác).
@@ -790,7 +876,7 @@ Xem [REFERENCES.md](REFERENCES.md) để biết đầy đủ thông tin kỹ thu
 
 1. Trong Bambu Studio, vào **File → Import → Import Configs**.
 2. Chọn file `.bbsflmt` tương ứng với loại sợi/máy in bạn cần.
-3. Cấu hình sợi sẽ xuất hiện trong danh sách filament của đúng máy in đó, dưới mục vendor `TINMORRY` hoặc `eSUN` (tùy bundle bạn đã nhập).
+3. Cấu hình sợi sẽ xuất hiện trong danh sách filament của đúng máy in đó, dưới mục vendor `TINMORRY`, `eSUN` hoặc `BING3D` (tùy bundle bạn đã nhập).
 
 ## Định dạng file
 
